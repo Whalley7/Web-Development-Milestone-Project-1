@@ -83,10 +83,15 @@ h2{
     color:#555555;
 }
 
+.navbar-fixed-top {
+    position:fixed !important;
+}
+
 #logo{
     float: left; 
     font-size: 280%;
     margin-left: 30px;
+    top:auto;
 }
  
 #menu{
@@ -119,7 +124,7 @@ h2{
 }
 
 #hero-image{
-    height:600px;
+    height: 600px;
     width: 100%;
     background: url('../images/weight-image.jpg') no-repeat center center;
   
@@ -166,7 +171,7 @@ h2{
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(47, 9, 8, 0.421);
 
     bottom:30px;
     right: 120px;
