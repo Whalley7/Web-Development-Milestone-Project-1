@@ -1,94 +1,156 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-        type="text/css" />
-    <!--<script src="https://kit.fontawesome.com/3982258271.js"></script>-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
-        type="text/css" />
-
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-
-<!----functionality scripts--------------->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <title>Phoenix Gym</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-
 <body>
-    <header class="site-header">
+   
         <title>Augmentation Station</title>
    
-    <div class="nav">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Phoenix Gym</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="menu">
-            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Equipment</a>
-            <a class="nav-item nav-link" href="#">Contact</a>
-          </div>
-        </div>
-      </nav>
-    </header>
-        <section id="hero-outer">
-               <div id="hero-image" class="img-fluid"></div>
-                <div id="cover-text">
-                    <h2>Work your way</h2>
-                    <h3>We're Open 24/7</h3>
-                </div>
-        </section>
-   
-    
-    <section id="club-ethos">
-        <div class="container-fluid"></div>
-        <h2 id="welcome">Why train with us?</h2>
 
+        <!-- LOGO AND NAV BAR -->
+	
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top home-navbar">
+            <a class="navbar-brand" href="#"><h2 id="logo">Phoenix Gym</h2></a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+			aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+        <div class="navbar">
+                <!-- NAV BAR LINKS -->
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+			<ul class="navbar-nav ml-auto text-uppercase">
+				<li class="nav-item">
+					<a class="nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html">Equipmnet</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="gallery.html">Contact</a>
+				</li>
+				
+			</ul>
+		</div>
+	</nav>
+   
+<br>
+
+<section id="hero-outer">
+    <div id="hero-image"></div>
+    <div id="cover-text">
+        <h2>Love Running</h2>
+        <h3>Dublin Docklands & Phoenix Park</h3>
+    </div>
+</section>
+
+<section id="club-ethos">
+    <h2 id="welcome">Why Love Running with us?</h2>
+
+    <div id="left-about">
+        <div class="left-about-heading">
+            <h2>Feel Healthy <i class="fas fa-heartbeat"></i></h2>
+            <hr>
+            <p>
+                Since it improves aerobic fitness, running is a great way to help improve your cardiovascular health. Plus, it burns calories and can build strength.
+            </p>
+        </div>
+        <div class="left-about-heading">
+            <h2>Feel Free <i class="fab fa-fly"></i></h2>
+            <hr>
+            <p>
+                Physical exercise, running included, is known to release endorphins in the brain. Endorphins make you more energetic, more awake and, yes, happier..
+            </p>
+        </div>
+
+    </div>
+
+    <div id="right-about">
         
-            <div class="row">
-                <div class="col-sm-4">
-                    <h3>Column 1</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-                </div>
-                <div class="col-sm-4">
-                    <h3>Column 2</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-                </div>
-                <div class="col-sm-4">
-                    <h3>Column 3</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-                </div>
+        <div class="right-about-heading">
+            <h2>Get Social <i class="fas fa-globe"></i></h2>
+            <hr>
+            <p>
+                 When we run with others, we can run farther and faster more easily. Social running can pull you out of a running funk or low mood, inspire you to try new events
+            </p>
+
+        </div>
+        <div class="right-about-heading">
+            <h2>Feel Strong <i class="fas fa-dumbbell"></i></h2>
+            <hr>
+            <p>
+                Running strengthens your heart by pumping blood 
+                                    more effectively through your body.
+            </p>
+
+        </div>
+    </div>
+
+    <div id="center-about">
+        <div id="circle-container">
+            
+            <div id="circle-cover-bg">
+                
             </div>
         </div>
+    </div>
 
+</section>
 
-        <footer>
-            <ul class="social-networks">
-                <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
-                </li>
-                <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
-                <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-                </li>
-            </ul>
-        </footer>
-        </div>
+<section id="times">
+    <div>
+        <h2>Urban <i class="fas fa-city"></i></h2>
+        <h3>Monday</h3>
+        <h3>5K</h3>
+        <h3>The Marker Hotel</h3>
+        <h3>18:30</h3>
+    </div>
+    <div>
+        <h2>Trail <i class="fas fa-tree"></i></h2>
+        <h3>Wendnesday</h3>
+        <h3>10K</h3>
+        <h3>The Phoenix Park</h3>
+        <h3>18:30</h3>
+    </div>
+    <div>
+        <h2>Urban <i class="fas fa-city"></i></h2>
+        <h3>Friday</h3>
+        <h3>5K</h3>
+        <h3>The Marker Hotel</h3>
+        <h3>18:30</h3>
+    </div>
+    <div>
+        <h2>Trail <i class="fas fa-tree"></i></h2>
+        <h3>Saturday</h3>
+        <h3>10K</h3>
+        <h3>The Phoenix Park</h3>
+        <h3>09:30</h3>
+    </div>
+    <div>
+        <h2>Coffee <i class="fas fa-mug-hot"></i></h2>
+        <h3>Sunday</h3>
+        <h3>0K</h3>
+        <h3>The Marker Hotel</h3>
+        <h3>11:30</h3>
+    </div>
+</section>
+<footer>
+    <ul class="social-networks">
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+</footer>
 
-        <!--Script to load the helper code for this project in repl.it. Do not edit-->
-        <script src="index.js"></script>
-
+<!--Script to load the helper code for this project in repl.it. Do not edit-->
+<script src="index.js"></script>
 </body>
-
 </html>
