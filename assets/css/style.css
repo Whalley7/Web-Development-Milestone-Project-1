@@ -9,6 +9,10 @@ body {
 
 /* ------Class Timetaable-----------*/
 
+.table-responsive body{
+    margin-top:20px;
+}
+.table-responsive   {width:80%; overflow: scroll;}
 .bg-light-gray {
     background-color: #f7f7f7;
 }
@@ -117,18 +121,7 @@ body {
     padding: .75rem;
     vertical-align: top;
     border-top: 1px solid #dee2e6;
-    text-transform: uppercase;
-  
-}
-
-h2 {
-    font-family: Roboto, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color:#0b0a0a;
-    text-align: center;
-  
-}
+}.
 
 /*------Logo Size and Position---*/
 
@@ -280,6 +273,7 @@ p {
 .footer{
     height: 200px;
     padding-top: 25px;
+    position: relative;
 }
 
 /* Style all font awesome icons */
@@ -474,5 +468,8 @@ th  {
   @media screen and (max-width: 800px) {
    #photo  {
    column-count:1;
+}
+.table-responsive {
+    width:fit-content;
 }
 }    
