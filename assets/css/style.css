@@ -6,6 +6,10 @@ body {
     border:0;
 }
 
+.row {
+  padding-top: 20px;
+}
+
 body{
     margin-top:20px;
 }
@@ -13,7 +17,9 @@ body{
 .copyright {
   text-align: center;
 }
-
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
 .table-bordered thead td, .table-bordered thead th {
     border-bottom-width: 2px;
 }
@@ -380,6 +386,10 @@ li a:hover:not(.active) {
   backgroun-color: paleturquoise;
 }
 
+  .header-container {
+
+    
+  }
 
   /* Header/Logo Title */
 .header-container  {
@@ -392,7 +402,6 @@ li a:hover:not(.active) {
   width:100%;
   position: sticky;
 }
-
 .top-header.h2 {
   clear:both;
   color:#ffff;
@@ -422,9 +431,8 @@ li a:hover:not(.active) {
 
   .timetable {
     text-align: center;
-    background-color: rgb(12, 2, 2);
-    width: 100%;
-    color: #fff;
+    background-color: grey;
+
   }
 
 
@@ -510,9 +518,10 @@ li a:hover:not(.active) {
 
 
 .form-section {
-   width: 50%;
+   width: %;
+
    z-index: 30;
-    position: re;
+position: re;
     left: 20px;
     bottom: 56px;
 }
@@ -536,7 +545,7 @@ div {
 }
 /* Social network links - code modified from W3 Schools */
 
-.social-networks{
+.social-networks{f
     text-align: center;
 }
 
@@ -698,7 +707,7 @@ div.col {
         border-style: solid;
         border-bottom-width: 1px;
         border-bottom-color: #fff;
-        padding-top: 10px;
+        padding: 0;
     }
 
     hr {
@@ -843,7 +852,9 @@ div.col {
 /* --- flexbox settings ---*/
 
 .row {
-  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -860,6 +871,10 @@ div.col {
 }
 
 
+.container-fluid::after {
+  content: "";
+  flex-basis: 350px;
+}
 
 
 /*---timetable------*/
@@ -994,15 +1009,11 @@ th  {
    column-count:1;
   
 }
-
-.row {
-  padding-top: 20px;
-}
     #label {
       position: static;
     }
      #header-container {
-      width:100%;
+      width:100%
       position: fit-content;
     }
 
