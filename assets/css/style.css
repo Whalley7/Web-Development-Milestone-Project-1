@@ -4,18 +4,16 @@ body {
     margin:0;
     padding:0;
     border:0;
-   
-}                             
+}
 
-/* ------Class Timetaable-----------*/
-
-.table-responsive body{
+body{
     margin-top:20px;
 }
-.table-responsive   {width:80%; overflow: scroll;}
-.bg-light-gray {
-    background-color: #f7f7f7;
+
+.copyright {
+  text-align: center;
 }
+
 .table-bordered thead td, .table-bordered thead th {
     border-bottom-width: 2px;
 }
@@ -27,63 +25,37 @@ body {
     border: 1px solid #dee2e6;
 }
 
-
-.bg-sky.box-shadow {
-    box-shadow: 0px 5px 0px 0px #00a2a7
+#kettlebell {
+ background-color:#fabcfb
 }
 
-.bg-orange.box-shadow {
-    box-shadow: 0px 5px 0px 0px #af4305
+#yoga {
+  background-color: #9de7ce;
 }
 
-.bg-green.box-shadow {
-    box-shadow: 0px 5px 0px 0px #4ca520
+#boxercise {
+  background-color: #f5d6f5;
 }
 
-.bg-yellow.box-shadow {
-    box-shadow: 0px 5px 0px 0px #dcbf02
+#spin {
+  background-color: ##6abaec;
+}
+#pilates {
+  background-color: silver;
 }
 
-.bg-pink.box-shadow {
-    box-shadow: 0px 5px 0px 0px #e82d8b
+#cardio {
+  background-color: #a4daa4;
 }
 
-.bg-purple.box-shadow {
-    box-shadow: 0px 5px 0px 0px #8343e8
+#circuits {
+  background-color: #dce3ab;
 }
 
-.bg-lightred.box-shadow {
-    box-shadow: 0px 5px 0px 0px #d84213
+#boxercise {
+  backgroun-color: paleturquoise;
 }
 
-
-.bg-sky {
-    background-color: #02c2c7
-}
-
-.bg-orange {
-    background-color: #e95601
-}
-
-.bg-green {
-    background-color: #5bbd2a
-}
-
-.bg-yellow {
-    background-color: #f0d001
-}
-
-.bg-pink {
-    background-color: #ff48a4
-}
-
-.bg-purple {
-    background-color: #9d60ff
-}
-
-.bg-lightred {
-    background-color: #ff5722
-}
 
 .padding-15px-lr {
     padding-left: 15px;
@@ -121,9 +93,94 @@ body {
     padding: .75rem;
     vertical-align: top;
     border-top: 1px solid #dee2e6;
-}.
+}
+.table-bordered thead td, .table-bordered thead th {
+    border-bottom-width: 2px;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+}
 
-/*------Logo Size and Position---*/
+
+
+
+.padding-15px-lr {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.padding-5px-tb {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.margin-10px-bottom {
+    margin-bottom: 10px;
+}
+.border-radius-5 {
+    border-radius: 5px;
+}
+
+.margin-10px-top {
+    margin-top: 10px;
+}
+.font-size14 {
+    font-size: 14px;
+}
+
+.text-light-gray {
+    color: #d6d5d5;
+}
+.font-size13 {
+    font-size: 13px;
+}
+
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+#label {
+  font-size: 130%;
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(241, 109, 107, .7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+
+}
+
+#label, h2 {
+    color: #ffffff;
+    padding: 10px;
+}
+
+
+
+
+h2 {
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color:#0b0a0a;
+}
 
 #logo{
     float: left; 
@@ -138,6 +195,7 @@ body {
   width: 100%;
  background: url("../images/gym-bikes.png") no-repeat center center;
   background-repeat: no-repeat;
+  background-position: center 56px;
   background-size: cover; 
     -webkit-background-size: cover;
     -moz-background-size:cover;
@@ -146,15 +204,6 @@ body {
     animation-duration: 5s;
     animation-fill-mode: forwards;
 
-}
-
-@keyframes hero-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
 }
 
 #hero-outer{
@@ -168,19 +217,29 @@ p {
   font-size: 1em;
 }
 
-/*------ Circle size----*/
 
-.circle {
+
+#circle {
   width: 200px;
     height: 200px;
     border-radius: 50%;
+    position: center;
 }
 
 
-
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
 
 #label {
-    
+   
+     lef: 1px;
+
     letter-spacing: 4px;
     font-size: 130%;
     font-family: Oswald;
@@ -188,44 +247,15 @@ p {
     width: 250px;
     height: 200px;
     color: #fff;
-    padding: 10px;
-    background-color: rgba(200, 14, 175, .7);
+    padding-top: 10px;
+    padding-right: 10px;
+    background-color: rgb(200, 14, 175, .7);
     float: left;
     bottom:60px;
+    position: sticky;
 
- }
-  /*----Label Text Colour----*/
-
-#label h2 {
-    color: #ffffff;
-    position: relative;
 }
 
-.top-header.h2 {
-  clear:both;
-  color:#ffff;
-  text-align: center;
-}
-
-.left-about-heading{
-    width: 50%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-about-heading{
-    width:50%;
-    float:left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-
-
-   
 
 #text-align-center {
   text-align: center;
@@ -237,6 +267,7 @@ p {
 #address div{
    color: #fafafa;
    background-color: rgba(60, 60, 60);
+   float: center;
    padding: 30px 0 30px;
    text-align: center;
    margin: 2px;
@@ -248,9 +279,157 @@ p {
     color:#fafafa;
 }
 
+.map-header {
+  top: 0px;
+  text-align: center;
+}
+
+#text-col{
+   padding-top:  40px;
+}
+/*--- navbar links ---*/
+
+li a.active {
+  background-color: #7bd0e5;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.card {
+    flex: 0 0 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+   
+
+  .card .text {
+    padding: 0 20px 20px;
+  }
+  .card .text > button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+
+    }
+  .card-container {
+    width: 100%;/*whatever size you want your container*/
+  border: 3px solid teal;
+  display: flex; /*Make sure to call this on your container*/
+  align-items: stretch; /*stretches all cards same height*/
+  justify-content: space-around; /*some space between cards*/
+  }
+
+.map-responsive{
+
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    text-align: center;
+
+}
+
+/*----- Tutorial and code sourced from https://blog.duda.co/responsive-google-maps-for-your-website--*/
+
+.map-responsive iframe{
+
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+
+}
+
+  /*----table design-----*/
+
+  #kettlebell {
+ background-color:#fabcfb
+}
+
+#yoga {
+  background-color: #8487e1;
+}
+
+#boxercise {
+  background-color: magenta;
+}
+
+#spin {
+  background-color: #grey;
+}
+#pilates {
+  background-color: silver;
+}
+
+#cardio {
+  background-color: #a4daa4;
+}
+
+#circuits {
+  background-color: #dce3ab;
+}
+
+#boxercise {
+  backgroun-color: paleturquoise;
+}
 
 
-/* Social network lins - code modified from W3 Schools */
+  /* Header/Logo Title */
+.header-container  {
+  padding: 5px;
+  background: #343737;
+  color: white;
+  font-size: 30px;
+  height: 80px; 
+  margin-top: 100px;
+  width:100%;
+  position: sticky;
+}
+
+.top-header.h2 {
+  clear:both;
+  color:#ffff;
+  text-align: center;
+  width: 100%;
+  overflow:scroll;
+}
+
+.copyright {
+  text-align: center;
+}
+  
+.footer{
+    height: 200px;
+    padding-top: 25px;
+    position: absolute;
+    margin-bottom:0;
+}
+
+}
+.top-header {
+  clear: both;
+  color: #fff;
+  text-align: center;
+  margin-top: 15px;
+}
+
+  .timetable {
+    text-align: center;
+    background-color: rgb(12, 2, 2);
+    width: 100%;
+    color: #fff;
+  }
+
+
+
+/* code modified from Code Institue */
 
 .social-networks{
     text-align: center;
@@ -273,10 +452,116 @@ p {
 .footer{
     height: 200px;
     padding-top: 25px;
-    position: relative;
 }
 
 /* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+#photo {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#photo img{
+    width: 100%;
+}
+
+
+.form-section {
+   width: 50%;
+   z-index: 30;
+    position: re;
+    left: 20px;
+    bottom: 56px;
+}
+
+
+div {
+  display: block;
+}
+
+
+
+
+/* Header/Logo Title */
+.header-container  {
+  padding: 5px;
+  background: #343737;
+  color: white;
+  font-size: 30px;
+  height: 80px; 
+  margin-top: 100px
+}
+/* Social network links - code modified from W3 Schools */
+
+.social-networks{
+    text-align: center;
+}
+
+.social-networks li {
+    display:inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 10%;
+    color: #0a185c;
+}
+
+/* Font awesome and css from W3 Schools*/
+
+
+.footer{
+    height: 200px;
+    padding-top: 25px;
+    position: absolute;
+    margin-bottom:0;
+}
+
+/* Style all font awesome icons from W3 Schools */
 .fa {padding: 20px;
   font-size: 30px;
   width: 50px;
@@ -287,7 +572,7 @@ p {
     text-align: center;
  
   }
-/* Add a hover effect if you want */
+/* Add a hover effect-- */
 .fa:hover {
   opacity: 0.7;
 }
@@ -332,25 +617,6 @@ p {
 #photo img{
     width: 100%;
 }
-
-.transport {
-  float: right;
-  
-}
-
-#google-map {
-   width: 500px;
-   border: 1px solid black;
-    overflow: hidden; /* will contain if #first is longer than #second */
-}
-
-#wrapper {
-
-   width: 500px;
-   border: 1px solid black;
-  overflow: hidden; /* will contain if #first is longer than #second */
-}
-
 .timetable {
   text-align: center;
 }
@@ -367,21 +633,7 @@ div {
   display: block;
 }
 
-
-
-
-/* Header/Logo Title */
-.header-container  {
-  padding: 5px;
-  background: #343737;
-  color: white;
-  font-size: 30px;
-  height: 80px; 
-  margin-top: 100px;
-  position: relative;
-
-}
-.top-header {
+#top-header {
   clear: both;
   color: #fff;
   text-align: center;
@@ -397,7 +649,256 @@ div.col {
         width: 23%;
         padding: 0 10px;
       }
+
+
+
+/* Header/Logo Title */
+.header-container  {
+  padding: 5px;
+  background: #343737;
+  color: white;
+  font-size: 30px;
+  height: 80px; 
+  margin-top: 100px;
+  width:100%;
+  position: sticky;
+
+}
+
+
+
+
+
+.iframe {
+   vertical-align: middle;
+}
+
+.div, col {
+    
+        float: left;
+        height: 470px;
+        width: 23%;
+        padding: 0 10px;
+      }
+
 @media screen and (max-width: 1393px) {
+
+    #gym-moto {
+        width: 65%;
+        height: 1100px;
+        margin: 0 auto; 
+    }
+    
+  
+    
+    #addresses div{
+        width: 100%;
+        clear: both;
+        height: 250px;
+        border-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: #fff;
+        padding-top: 10px;
+    }
+
+    hr {
+        display: none;
+    }
+
+  
+    
+@media screen and (max-width: 943px) {
+    
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-image {
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        background: url(../img/form-bg.png) no-repeat;
+
+    }
+
+    #cover-text {
+        left: 0px;
+    }
+    
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto; 
+    }
+
+
+    #photo{
+        column-count:1;
+    }
+    
+    
+    #form-container {
+       left:0;
+    }
+  #kettlebell {
+ background-color:#fabcfb
+}
+
+#yoga {
+  background-color: #8487e1;
+}
+
+#boxercise {
+  background-color: magenta;
+}
+
+#spin {
+  background-color: #grey;
+}
+#pilates {
+  background-color: silver;
+}
+
+#cardio {
+  background-color: #a4daa4;
+}
+
+#circuits {
+  background-color: #dce3ab;
+}
+
+#boxercise {
+  backgroun-color: paleturquoise;
+}
+
+  .card {
+    flex: 0 0 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+   
+
+  .card .text {
+    padding: 0 20px 20px;
+  }
+  .card .text > button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+
+    }
+  .card-container {
+    width: 100%;/*whatever size you want your container*/
+  border: 3px solid teal;
+  display: flex; /*Make sure to call this on your container*/
+  align-items: stretch; /*stretches all cards same height*/
+  justify-content: space-around; /*some space between cards*/
+  webkit-flex-grow: 1;
+  }
+
+    
+
+.map-responsive{
+
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    text-align: center;
+
+}
+
+/*----- Tutorial and code sourced from https://blog.duda.co/responsive-google-maps-for-your-website--*/
+
+.map-responsive iframe{
+
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+
+}
+
+    l {
+  list-style-type: none;
+  background-color: #f1f1f1;
+  padding: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+
+}
+/*---- flexbox gallery----*/
+    
+
+
+/*------flexbox image -------*/
+/* --- flexbox settings ---*/
+
+.row {
+  padding-top: 10px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+
+
+/*---timetable------*/
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.kettlebell {
+  background-color:gold ;
+}
+
+li a.active {
+  background-color: #09fb5a;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+    
+
+
+    
+    
+    
+    
+    
+    @media screen and (max-width: 800px) {
+    #photo {
+     column-count:2;
+    }
+  }
+
+    @media screen and (max-width: 1393px) {
     #gym-moto {
         width: 65%;
         height: 1100px;
@@ -418,8 +919,14 @@ div.col {
     hr {
         display: none;
     }
-
+    .header-container {
+      width:100%
+    }
+.row {
+  margin-top: 20px;
+}
   
+ 
     
 @media screen and (max-width: 943px) {
     
@@ -427,7 +934,7 @@ div.col {
     #gym-motto {
         height: 500px;
         background-size: cover;
-        background: url(../img/form-bg.png) no-repeat;
+        
 
     }
 
@@ -443,12 +950,28 @@ div.col {
     }
 
 
-  .address {font-size: 20px;
+  .address {
+    font-size: 20px;
 } 
+   .header-container {
+      width:100%
+    }
 
- #top-header h2-header {
-    text-align: center;
-  }
+  
+.label h2 {
+    color: #ffffff;
+    position: relative;
+    margin-left: 20px;
+}
+
+#top-header.h2 {
+  clear:both;
+  color:#ffff;
+  text-align: center;
+  width: 100%;
+  overflow:scroll;
+}
+
 
 th  {
     text-transform: uppercase;
@@ -463,13 +986,23 @@ th  {
     #form-container {
        left:0;
     }
+  
     
 }
   @media screen and (max-width: 800px) {
    #photo  {
    column-count:1;
+  
 }
-.table-responsive {
-    width:fit-content;
+
+.row {
+  padding-top: 20px;
 }
-}    
+    #label {
+      position: static;
+    }
+     #header-container {
+      width:100%;
+      position: fit-content;
+    }
+
