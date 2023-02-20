@@ -59,7 +59,7 @@ body{
 }
 
 #boxercise {
-  backgroun-color: paleturquoise;
+  background-color: paleturquoise;
 }
 
 
@@ -199,7 +199,7 @@ h2 {
 #hero-image{
   height: 100vh;
   width: 100%;
- background: url("../images/gym-bikes.png") no-repeat center center;
+ background: url("../images/hero-imageTNP.png") no-repeat center center;
   background-repeat: no-repeat;
   background-position: center 56px;
   background-size: cover; 
@@ -311,6 +311,7 @@ li a:hover:not(.active) {
     border: 1px solid #ccc;
     box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
    
+   
 
   .card .text {
     padding: 0 20px 20px;
@@ -329,6 +330,13 @@ li a:hover:not(.active) {
   display: flex; /*Make sure to call this on your container*/
   align-items: stretch; /*stretches all cards same height*/
   justify-content: space-around; /*some space between cards*/
+  height: calc(100% - 15px);
+  margin: 10px !important;
+          height: 70vh;
+          width: auto;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+  flex: initial; 
   }
 
 .map-responsive{
