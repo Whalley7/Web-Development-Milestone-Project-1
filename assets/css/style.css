@@ -18,12 +18,12 @@ body {
   height: 80px; 
   margin-top: 100px;
   width:100%;
+  text-align: center;
   position: sticky;
 }
 .top-heading {
     clear: both;
     color: #fff;
-    text-align: center;
     margin-top: 15px;
 }
 
@@ -163,14 +163,14 @@ body {
     padding: .75rem;
     vertical-align: top;
     border-top: 1px solid #dee2e6;
+    text-align: center;
 }
 
 #label {
-  font-size: 130%;
+  font-size: 1rem;
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-
     width: 300px;
     height: 200px;
 
@@ -347,20 +347,16 @@ li a:hover:not(.active) {
   flex: initial; 
   }
 
-.map-responsive{
+  .map-responsive{
 
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
     height:0;
-    text-align: center;
 
 }
 
-/*----- Tutorial and code sourced from https://blog.duda.co/responsive-google-maps-for-your-website--*/
-
 .map-responsive iframe{
-
     left:0;
     top:0;
     height:100%;
@@ -368,6 +364,8 @@ li a:hover:not(.active) {
     position:absolute;
 
 }
+/*----- Tutorial and code sourced from https://blog.duda.co/responsive-google-maps-for-your-website--*/
+
 
   /*----table design-----*/
 
@@ -424,6 +422,7 @@ li a:hover:not(.active) {
     background-color: grey;
 
   }
+
 
 
 
@@ -519,16 +518,36 @@ div {
 }
 
 /* Font awesome and css from W3 Schools*/
+.social-networks li a i {
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  text-align: center;
+  color: #fafafa;
+  background: #8f8f8f;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
 
+.social-links li a i:hover {
+  background: #e84610;
+}
+
+#footer-details {
+  padding: 20px;
+}
 
 /* Style all font awesome icons from W3 Schools */
 
 /* Set a specific color for each brand */
 
 
-.timetable {
-  text-align: center;
-}
+
 
 
 div {
@@ -576,9 +595,7 @@ div.col {
       display: none;
     }
 
-    . {
-      display: none;
-    }
+    
     
   
  
@@ -679,20 +696,22 @@ li a:hover:not(.active) {
     font-size: 1rem;
    }
 
-   address-item {
+   .address {
    font-size: 1rem;
   }
 
-  timetable-container {
+  h4 {
+    font-size: 0.5rem;
+  }
+
+  .timetable-container {
     display: none;
   }
 }
     
     @media screen and (max-width: 800px) {
-    #photo {
-     column-count:2;
+ 
     }
-  }
 
     @media screen and (max-width: 1393px) {
  
@@ -706,27 +725,30 @@ li a:hover:not(.active) {
         border-bottom-color: #fff;
         padding: 0;
         text-align: center;
+        font-size: 1rem;
     }
 
-h2 {
-  font-size: 20px;
-}
 
     hr {
         display: none;
     }
+
+    h2 {
+      font-size: 2rem;
+    }
     .header-container {
-      height: 40px;
+      height: 50px;
       width:100%
     }
 
     .header-container h1 {
-      font-size: 2rem;
+      font-size: 1.5rem;
       text-align:center;
+      top: -5px;
     }
 
   .top-heading {
-    text-align: center; 
+   margin: auto;
    }
   
 .row {
@@ -736,14 +758,7 @@ h2 {
  
     
 @media screen and (max-width: 943px) {
-    
-
-    #gym-motto {
-        height: 500px;
-        background-size: cover;
-        
-
-    }
+  
 
 
     #cover-text {
@@ -779,46 +794,46 @@ th  {
     
 }
   @media screen and (max-width: 800px) {
-   #photo  {
-   column-count:1;
-  
-}
+ 
 
-h2 {
-  
-  font-size: 0.75rem;
-}
-
-
-}
+    .logo {
+      font-size: 2rem;
+    }
 .table {
-  font-size: 0.75rem;
+  font-size: 0.5rem;
+  
 }
 
-td{
-  font-size: 0.75rem;
+
+.card-title {
+  font-size: 1.5rem;
 }
 
-h2 {
-  font-size: 0.75rem;
+.card-text {
+  font-size: 1rem;
 }
-
 
   .th {
     display: none;
     
   }
-  .table td {
-    font-size: 1rem;
+  .table  {
+    font-size: 0.75rem;
+    
+   
     
   }
-  h2 information-text {
-    font-size: 3.2vw;
   
-  }
+
     #label {
       position: static;
+
+    }
+
+    h2  {
+      font-size: 1rem;
     }
 
   }
+}
 }
