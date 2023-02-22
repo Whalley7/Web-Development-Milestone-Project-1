@@ -30,9 +30,7 @@ body {
 .copyright {
   text-align: center;
 }
-.bg-light-gray {
-    background-color: #f7f7f7;
-}
+
 .table-bordered thead td, .table-bordered thead th {
     border-bottom-width: 2px;
 }
@@ -167,43 +165,19 @@ body {
 }
 
 #label {
-  font-size: 1rem;
     font-family: Roboto, sans-serif;
+    font-size: medium;
     text-transform: uppercase;
     letter-spacing: 4px;
-    width: 300px;
-    height: 200px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    background-color: rgba(241, 109, 107, .7);
-
-    bottom: 30px;
+    width: 100px;
+    background-color: rgba(225, 241, 107, 0.7);
     right: 150px;
-
     position: absolute;
-
 }
 
-#label, h2 {
+#label h2 {
     color: #ffffff;
-    padding: 10px;
 }
-
-h2 {
-    font-family: Roboto, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color:#0b0a0a;
-}
-
-#logo{
-    float: left; 
-    font-size: 280%;
-    margin-left: 30px;
-}
-
 
 
 #hero-image{
@@ -249,25 +223,7 @@ p {
     }
 }
 
-#label {
-   
-     left: 1px;
 
-    letter-spacing: 4px;
-    font-size: 130%;
-    font-family: Oswald;
-    text-transform: uppercase;
-    width: 250px;
-    height: 200px;
-    color: #fff;
-    padding-top: 10px;
-    padding-right: 10px;
-    background-color: rgb(200, 14, 175, .7);
-    float: left;
-    bottom:60px;
-    position: sticky;
-
-}
 
 
 #text-align-center {
@@ -285,6 +241,15 @@ p {
    text-align: center;
    margin: 2px;
 
+}
+
+.logo {
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
 }
 
  /* colour for h2 */
@@ -692,9 +657,7 @@ li a:hover:not(.active) {
     
     
 @media screen and (max-width: 500px) {
-   .logo {
-    font-size: 1rem;
-   }
+
 
    .address {
    font-size: 1rem;
@@ -709,9 +672,6 @@ li a:hover:not(.active) {
   }
 }
     
-    @media screen and (max-width: 800px) {
- 
-    }
 
     @media screen and (max-width: 1393px) {
  
@@ -741,7 +701,7 @@ li a:hover:not(.active) {
       width:100%
     }
 
-    .header-container h1 {
+    .header-container {
       font-size: 1.5rem;
       text-align:center;
       top: -5px;
@@ -749,6 +709,9 @@ li a:hover:not(.active) {
 
   .top-heading {
    margin: auto;
+   position: left;
+
+
    }
   
 .row {
@@ -773,14 +736,6 @@ li a:hover:not(.active) {
 } 
  
 
-  
-h2.label {
-    color: #ffffff;
-    position: relative;
-    margin-left: 20px;
-    font-size: 10px;
-}
-
 /* Header/Logo Title */
 
 th  {
@@ -795,10 +750,6 @@ th  {
 }
   @media screen and (max-width: 800px) {
  
-
-    .logo {
-      font-size: 2rem;
-    }
 .table {
   font-size: 0.5rem;
   
@@ -823,12 +774,7 @@ th  {
    
     
   }
-  
 
-    #label {
-      position: static;
-
-    }
 
     h2  {
       font-size: 1rem;
