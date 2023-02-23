@@ -19,6 +19,10 @@ body {
   position: sticky;
 }
 
+.nav-link {
+  font-weight:bolder;
+}
+
 #card-info {
   margin-top: 20px;
 }
