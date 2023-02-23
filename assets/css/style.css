@@ -166,9 +166,7 @@ body {
     text-align: center;
 }
 
-#label {
     font-family: Roboto, sans-serif;
-    font-size: medium;
     text-transform: uppercase;
     letter-spacing: 4px;
     width: 100px;
@@ -224,10 +222,6 @@ p {
         transform: scale(1.1);
     }
 }
-
-
-
-
 #text-align-center {
   text-align: center;
   padding: 30px;
@@ -772,7 +766,7 @@ th  {
 
 
     h2  {
-      font-size: 1rem;
+      font-size: 0.75rem;
     }
 
   }
