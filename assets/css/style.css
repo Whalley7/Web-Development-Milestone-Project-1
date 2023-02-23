@@ -41,35 +41,35 @@ body {
 }
 
 /*-----------------------------colour for Information table-----------------------*/
-#kettlebell {
+.kettlebell {
   background-color: #fabcfb
 }
 
-#yoga {
+.yoga {
   background-color: #9de7ce;
 }
 
-#boxercise {
+.boxercise {
   background-color: #f5d6f5;
 }
 
-#spin {
+.spin {
   background-color: #6abaec;
 }
 
-#pilates {
+.pilates {
   background-color: silver;
 }
 
-#cardio {
+.cardio {
   background-color: #a4daa4;
 }
 
-#circuits {
+.circuits {
   background-color: #dce3ab;
 }
 
-#boxercise {
+.boxercise {
   background-color: paleturquoise;
 }
 
@@ -125,6 +125,10 @@ body {
   width: 100%;
   overflow: hidden;
   position: relative;
+}
+
+.contact {
+  text-align:center;
 }
 
 /*--------------------------- circle container - Home Page ---------------------------*/
