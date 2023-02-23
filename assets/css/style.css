@@ -1,49 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 body {
-    margin-top:20px;
-    padding:0;
-    border:0;
+  margin-top: 20px;
+  padding: 0;
+  border: 0;
 }
 
-.row {
-  padding-top: 20px;
-}
-
-.header-container  {
+/*-------------------Headings-----------------------------*/
+.header-container {
   padding: 5px;
   background: #343737;
   color: white;
   font-size: 30px;
-  height: 80px; 
+  height: 60px;
   margin-top: 100px;
-  width:100%;
+  width: 100%;
   text-align: center;
   position: sticky;
 }
+
+#card-info {
+  margin-top: 20px;
+}
+
+#gallery {
+  margin-top:  20px;
+}
+
 .top-heading {
-    clear: both;
-    color: #fff;
-    margin-top: 15px;
+  clear: both;
+  color: #fff;
 }
 
 .copyright {
   text-align: center;
 }
 
-.table-bordered thead td, .table-bordered thead th {
-    border-bottom-width: 2px;
-}
-.table thead th {
-    vertical-align: bottom;
-    border-bottom: 2px solid #dee2e6;
-}
-.table-bordered td, .table-bordered th {
-    border: 1px solid #dee2e6;
-}
-
+/*-----------------------------colour for Information table-----------------------*/
 #kettlebell {
- background-color:#fabcfb
+  background-color: #fabcfb
 }
 
 #yoga {
@@ -57,6 +52,7 @@ body {
 #spin {
   background-color: #6abaec;
 }
+
 #pilates {
   background-color: silver;
 }
@@ -73,702 +69,296 @@ body {
   background-color: paleturquoise;
 }
 
+/*-------------------------font colour for label-----------------------------------*/
 
-.padding-15px-lr {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.padding-5px-tb {
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-.margin-10px-bottom {
-    margin-bottom: 10px;
-}
-.border-radius-5 {
-    border-radius: 5px;
-}
-
-.margin-10px-top {
-    margin-top: 10px;
-}
-.font-size{
-    font-size: 14px;
+#label {
+  font-size: 130%;
+  font-family: roboto;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  width: 300px;
+  height: 175px;
+  padding-top: 40px;
+  padding-left: 10px;
+  background-color: rgba(241, 107, 216, 0.7);
+  bottom: 150px;
+  right: 150px;
+  position: absolute;
 }
 
-.text-light-gray {
-    color: #d6d5d5;
-}
-.font-size13 {
-    font-size: 13px;
-}
-
-.table-bordered td, .table-bordered th {
-    border: 1px solid #dee2e6;
-}
-.table td, .table th {
-    padding: .75rem;
-    vertical-align: top;
-    border-top: 1px solid #dee2e6;
-}
-.table-bordered thead td, .table-bordered thead th {
-    border-bottom-width: 2px;
-}
-.table thead th {
-    vertical-align: bottom;
-    border-bottom: 2px solid #dee2e6;
-}
-.table-bordered td, .table-bordered th {
-    border: 1px solid #dee2e6;
-}
-
-#discount {
+/*---------font-colour-------------------------------*/
+#label {
   color: #fff;
 }
 
+/*------------------------------ Home Page - Hero Image - tutorial Code Institute------------------------*/
 
-.padding-15px-lr {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.padding-5px-tb {
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-.margin-10px-bottom {
-    margin-bottom: 10px;
-}
-.border-radius-5 {
-    border-radius: 5px;
-}
-
-.margin-10px-top {
-    margin-top: 10px;
-}
-.font-size14 {
-    font-size: 14px;
-}
-
-.text-light-gray {
-    color: #d6d5d5;
-}
-.font-size13 {
-    font-size: 13px;
-}
-
-.table-bordered td, .table-bordered th {
-    border: 1px solid #dee2e6;
-}
-.table td, .table th {
-    padding: .75rem;
-    vertical-align: top;
-    border-top: 1px solid #dee2e6;
-    text-align: center;
-}
-
-    font-family: Roboto, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    width: 100px;
-    background-color: rgba(225, 241, 107, 0.7);
-    right: 150px;
-    position: absolute;
-}
-
-#label h2 {
-    color: #fff;
-}
-
-
-#hero-image{
+#hero-image {
   height: 100vh;
   width: 100%;
- background: url("../images/hero-imageTNP.png") no-repeat center center;
+  background: url("../images/gym-bikes-hero.jpeg") no-repeat center center;
   background-repeat: no-repeat;
   background-position: center 56px;
-  background-size: cover; 
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+  background-size: cover;
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
 
 }
-
-#hero-outer{
-    height:600px;
-    width: 100%;
-    overflow:hidden;
-    position: relative;
-}
-
-p {
-  font-size: 1em;
-}
-
-
-
-#circle {
-  width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    text-align: center;
-}
-
 
 @keyframes hero-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.1);
+  }
 }
-#text-align-center {
+
+#hero-outer {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+/*--------------------------- circle container - Home Page ---------------------------*/
+#circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
   text-align: center;
-  padding: 30px;
 }
 
- /* Setting for address */
 
-#address div{
-   color: #fafafa;
-   background-color: rgba(60, 60, 60);
-   float:inherit;
-   padding: 30px 0 30px;
-   text-align: center;
-   margin: 2px;
+/*------Setting for address---------- */
+
+address {
+  color: #fff;
+  background-color: rgba(60, 60, 60);
+  float: inherit;
+  padding: 30px 0 30px;
+  text-align: center;
+  margin-top: 10px;
+  font-family: Roboto;
 
 }
+
+/*------------------- colour for h2------------------------ */
+
 
 .logo {
   background-position: left;
   background-repeat: no-repeat;
 }
 
- /* colour for h2 */
-#address h2 {
-    color:#fafafa;
-}
-
-.map-header {
-  top: 0px;
-  text-align: center;
-}
-
-#text-col{
-   padding-top:  40px;
-}
 /*--- navbar links ---*/
 
-li a.active {
+li a.nav-link.active {
   background-color: #09b2fb;
   color: white;
 }
 
 
-li a:hover:not(.active) {
-  background-color: #b39b9b;
+ a.nav-link:hover:not(.active) {
+  background-color: #b6b1b1;
   color: #fff;
 }
 
 .card-container {
-    flex: 0 0 200px;
-    margin: 10px;
-    border: 1px solid #ccc;
-    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
-   
+  flex: 0 0 200px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(14, 14, 14, 0.3);
 }
 
-  .card-container text {
-    padding: 0 20px 20px;
-  }
-  .card text > button {
-    background: gray;
-    border: 0;
-    color: white;
-    padding: 10px;
-    width: 100%;
+.card-container text {
+  padding: 0 20px 20px;
+}
 
-    }
-  .card-container {
-    width: 100%;/*whatever size you want your container*/
-  border: 3px solid teal;
-  display: flex; /*Make sure to call this on your container*/
-  align-items: stretch; /*stretches all cards same height*/
-  justify-content: space-around; /*some space between cards*/
+.card-container {
+  width: 100%;
+  /*whatever size you want your container*/
+  border: 3px solid rgb(12, 12, 12);
+  display: flex;
+  /*Make sure to call this on your container*/
+  align-items: stretch;
+  /*stretches all cards same height*/
+  justify-content: space-around;
+  /*some space between cards*/
   height: calc(100% - 15px);
   margin: 10px !important;
-          height: 70vh;
-          width: auto;
+  height: 70vh;
+  width: auto;
   margin-bottom: 15px;
   flex-wrap: wrap;
-  flex: initial; 
-  }
+  flex: initial;
+}
 
-  .map-responsive{
+.map-responsive {
 
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+  margin-top: 40px;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 
 }
 
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-
-}
-/*----- Tutorial and code sourced from https://blog.duda.co/responsive-google-maps-for-your-website--*/
-
-
-  /*----table design-----*/
-
-  #kettlebell {
- background-color:#fabcfb
+table {
+  text-align:center;
 }
 
-#yoga {
-  background-color: #8487e1;
+.footer {
+  height: 200px;
+  padding-top: 25px;
+  position: absolute;
+  margin-bottom: 0;
 }
 
-#boxercise {
-  background-color: magenta;
-}
-
-#spin {
-  background-color: #09fb5a;
-}
-#pilates {
-  background-color: silver;
-}
-
-#cardio {
-  background-color: #a4daa4;
-}
-
-#circuits {
-  background-color: #dce3ab;
-}
-
-#boxercise {
-  background-color: paleturquoise;
-}
-
-
-
-
-.copyright {
+.timetable {
   text-align: center;
-}
-  
-.footer{
-    height: 200px;
-    padding-top: 25px;
-    position: absolute;
-    margin-bottom:0;
-
-
+  background-color:  #343737;
+  color: #fff;
 }
 
-
-  .timetable {
-    text-align: center;
-    background-color: grey;
-
-  }
-
-
-
-
-/* code modified from Code Institue */
-
-.social-networks{
-    text-align: center;
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width:  100%;
 }
 
-.social-networks li {
-    display:inline;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 10%;
-    color: #0a185c;
-}
 
 /* Font awesome and css from W3 Schools*/
 
-
-.footer{
-    height: 200px;
-    padding-top: 25px;
+footer {
+  height: 150px;
 }
 
-/* Style all font awesome icons */
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
+.social-networks {
   text-align: center;
-  text-decoration: none;
+
 }
 
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
+footer i:hover {
+  color:#09b2fb;
+}
+.social-networks li{
+  display: inline;
 }
 
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-/* Twitter */
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-.fa-pinterest {
-  background: #cb2027;
-  color: white;
-}
-
-
-
-div {
-  display: block;
-}
-
-/* Social network links - code modified from W3 Schools */
-
-.social-networks{
-    text-align: center;
-}
-
-.social-networks li {
-    display:inline;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 10%;
-    color: #0a185c;
-}
-
-/* Font awesome and css from W3 Schools*/
-.social-networks li a i {
-  width: 32px;
-  height: 32px;
-  padding: 12px 0;
-  border-radius: 50%;
-  font-size: 13px;
-  line-height: 7px;
-  text-align: center;
-  color: #fafafa;
-  background: #8f8f8f;
-  transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-}
-
-.social-links li a i:hover {
-  background: #e84610;
-}
-
-#footer-details {
-  padding: 20px;
-}
-
-/* Style all font awesome icons from W3 Schools */
-
-/* Set a specific color for each brand */
-
-
-
-
-
-div {
-  display: block;
+.social-networks i{
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: #777777;
 }
 
 #iframe {
-   vertical-align: middle;
-   position: relative;
+  vertical-align: middle;
+  position: relative;
 }
-
-div.col {
-        float: left;
-        height: 470px;
-        width: 23%;
-        padding: 0 10px;
-      }
-
 
 
 @media screen and (max-width: 1393px) {
-  
-    
-    #addresses div{
-        width: 100%;
-        clear: both;
-        height: 250px;
-        border-style: solid;
-        border-bottom-width: 1px;
-        border-bottom-color: #fff;
-        padding: 0;
-    }
 
-    hr {
-        display: none;
-    }
+  hr {
+    display: none;
+  }
 
-  
-    
-@media screen and (max-width: 943px) {
-    
-    
-    
+  @media screen and (max-width: 943px) {
+
     .thead {
       display: none;
     }
 
-    
-    
   
- 
-.map-responsive{
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+    /* Create four equal columns that sits next to each other */
+    .column {
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+    }
 
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-    text-align: center;
+    @media screen and (max-width: 500px) {
 
-}
-
-/*----- Tutorial and code sourced from https://blog.duda.co/responsive-google-maps-for-your-website--*/
-
-.map-responsive iframe{
-
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-
-}
-
- .li {
-  list-style-type: none;
-  background-color: #f1f1f1;
-  padding: 0;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-
-}
-/*---- flexbox gallery----*/
-    
-
-
-/*------flexbox image -------*/
-/* --- flexbox settings ---*/
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-
-
-.container-fluid::after {
-  content: "";
-  flex-basis: 350px;
-}
-
-
-/*---timetable------*/
-
-li a {
-  display: block;
-  color: #fff;
-  padding: 8px 16px;
-  text-decoration: none;
-}
-
-.kettlebell {
-  background-color:gold ;
-}
-
-li a.active {
-  background-color: #09b2fb;
-  color: white;
-}
-
-li a:hover:not(.active) {
-  background-color: #b39b9b;
-  color: #fff;
-}
-    
-
-
-    
-    
-    
-@media screen and (max-width: 500px) {
-
-
-   .address {
-   font-size: 1rem;
-  }
-
-  h4 {
-    font-size: 0.5rem;
-  }
-
-  .timetable-container {
-    display: none;
-  }
-}
-    
-
-    @media screen and (max-width: 1393px) {
- 
-  }
-    #addresses div{
-        width: 80%;
-        clear: both;
-        height: 250px;
-        border-style: solid;
-        border-bottom-width: 1px;
-        border-bottom-color: #fff;
-        padding: 0;
-        text-align: center;
+      .address {
         font-size: 1rem;
-    }
+      }
 
+    .address  h4 {
+        font-size: 0.5rem;
+      }
 
-    hr {
+      .information-text  {
+        font-size: 2rem;
+      }
+      
+      th {
         display: none;
+
+      }
     }
 
-    .header-container {
-      height: 50px;
-      width:100%
+
+    @media screen and (max-width: 1393px) {}
+    hr {
+      display: none;
     }
 
-    .header-container {
-      font-size: 1.5rem;
-      text-align:center;
-      top: -5px;
+    @media screen and (max-width: 943px) {
+
+      .address {
+        font-size: 1rem;
+      }
+
+      /* Header/Logo Title */
+
+
+      #logo {
+        font-size: 1rem;
+      }
+
+
+
     }
 
-  .top-heading {
-   margin: auto;
-   position: left;
+    @media screen and (max-width: 800px) {
+
+      .table {
+        font-size: 0.5rem;
+
+      }
 
 
-   }
-  
-.row {
-  margin-top: 20px;
-}
-  
- 
-    
-@media screen and (max-width: 943px) {
-  
+      .card-title {
+        font-size: 1.5rem;
+      }
 
+      .card-text {
+        font-size: 1rem;
+      }
+      .th {
+        display: none;
+      }
+      .table {
+        font-size: 0.75rem;
+      }
 
-    #cover-text {
-        left: 0px;
     }
-    
-
-
-
-  .address {
-    font-size: 20px;
-} 
- 
-
-/* Header/Logo Title */
-
-th  {
-    display: none;
-    
   }
-    
-
-  
-  
-    
-}
-  @media screen and (max-width: 800px) {
- 
-.table {
-  font-size: 0.5rem;
-  
-}
-
-
-.card-title {
-  font-size: 1.5rem;
-}
-
-.card-text {
-  font-size: 1rem;
-}
-
-  .th {
-    display: none;
-    
-  }
-  .table  {
-    font-size: 0.75rem;
-    
-   
-    
-  }
-
-
-    h2  {
-      font-size: 0.75rem;
-    }
-
-  }
-}
 }

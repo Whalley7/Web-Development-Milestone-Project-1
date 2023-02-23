@@ -6,8 +6,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    type="text/css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+  integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
     integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
@@ -52,11 +52,12 @@
       </div>
     </nav>
   </header>
-  <section>
+
    <div class="header-container">
   <h1 class="top-heading">Prices</h1>
 </div>  
-</section>
+
+<section id="card-info">
   <div class="container">
     <div class=card-container">
     <div class="row g-3">
@@ -93,8 +94,8 @@
     </div>
   </div>
   </div>
-
- <div class="container">
+</section>
+ <section class="container">
    <div class="timetable">
     <h2>Timetable</h2>
    </div>
@@ -102,7 +103,7 @@
      
     <p><a href="https://youtu.be/sthD8ziGP1c" target="_blank">Have a look at this YouTube video for beginners at the
         gym!</a></p>
-    <table class="table">
+    <table class="center">
       <thead>
         <tr>
           <th>Phoenix Gym</th>
@@ -118,44 +119,44 @@
           <td>2.00-4.00</td>
           <td>6.00-8.00</td>
         </tr>
-        <tr class="table">
+        <tr>
           <td>Sun</td>
           <td id="pilates">Pilates</td>
           <td id="circuits">Circuits</td>
           <td id="kettlebell">Kettlebell</td>
         </tr>
-        <tr class="table">
+        <tr>
           <td>Mon</td>
-          <td>Spin</td>
+          <td id="spin">Spin</td>
           <td id="boxercise">Boxercise</td>
           <td id="cardio">Cardio</td>
         </tr>
-        <tr class="table">
+        <tr>
           <td>Tue</td>
          <td id='yoga'>Yoga</td>
           <td id="cardio">Cardio</td>
           <td id='spin'>Spin</td>
         </tr>
-        <tr class="table">
+        <tr>
           <td>Wed</td>
           <td id="kettlebell">Kettlebell</td>
          <td id='spin'>Spin</td>
           <td id="boxercise">Boxercise</td>
         </tr>
-        <tr class="table">
+        <tr>
           <td>Thur</td>
           <td id="boxercise">Boxercise</td>
           <td id='yoga'>Yoga</td>
          <td id="circuits">Circuits</td>
         </tr>
-        <tr class="table">
+        <tr>
           <td>Fri</td>
           <td id="circuits">Circuits</td>
          <td id='pilates'>Pilates</td>
          <td id="cardio">Cardio</td>
         </tr>
-        <tr class="table">
-            <td>Sat</td>
+        <tr>
+          <td>Sat</td>
           <td id="cardio">Cardio</td>
           <td id="kettlebell">Kettlebell</td>
           <td id='circuits'>Circuits</td>
@@ -164,27 +165,15 @@
       </tbody>
     </table>
   </div>
- </div>
- 
-
-
-
-  
-  <footer>
-    <div class="social-networks">
-      <!-- Add font awesome icons -->
-      <a href="https://en-gb.facebook.com/" class="fa fa-facebook" target="_blank"></a>
-      <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"
-        class="fa fa-twitter" target="_blank"></a>
-      <a href="https://www.youtube.com/account" class="fa fa-youtube" target="_blank"></a>
-      <a href="https://www.instagram.com/accounts/login/" class="fa fa-instagram" target="_blank"></a>
-      <a href="https://www.pinterest.co.uk/login/" class="fa fa-pinterest" target="_blank"></a>
-    </div>
-     <div class="copyright">
-   <p>Copyright: @phoenixgym.com</p>
- </div>
+ </section>
+  <footer class="container">
+      <ul class="social-networks">
+          <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"> </i></li>
+          <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"> </i></li>
+          <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"> </i></li>
+          <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"> </i></li>
+      </ul>
   </footer>
-
  
 </body>
 
