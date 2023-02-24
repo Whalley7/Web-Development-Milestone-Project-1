@@ -36,7 +36,6 @@ body {
 }
 
 .top-heading {
-  clear: both;
   color: #fff;
 }
 
@@ -101,7 +100,7 @@ body {
 #hero-image {
   height: 100vh;
   width: 100%;
-  background: url("../images/gym-bikes-hero.jpeg") no-repeat center center;
+  background: url("../images/compressed-main-min.png") no-repeat center center;
   background-repeat: no-repeat;
   background-position: center 56px;
   background-size: cover;
@@ -290,6 +289,11 @@ footer i:hover {
         font-size: 1rem;
       }
 
+      .logo {
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
     .address  h4 {
         font-size: 0.5rem;
       }
@@ -341,11 +345,8 @@ footer i:hover {
       .text {
         font-size: 16px;
       }
-      .header-container {
-        display:none;
-      }
 
-      .card.img {
+      .card img {
         width: 100%;
         height: auto;
     }
