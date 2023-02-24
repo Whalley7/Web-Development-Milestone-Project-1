@@ -27,6 +27,10 @@ body {
   margin-top: 20px;
 }
 
+.card img {
+  width: 100%;
+}
+
 .gallery {
   margin-top:  20px;
 }
@@ -36,9 +40,6 @@ body {
   color: #fff;
 }
 
-.copyright {
-  text-align: center;
-}
 
 /*-----------------------------colour for Information table-----------------------*/
 .kettlebell {
@@ -178,32 +179,12 @@ li a.nav-link.active {
   flex: 0 0 200px;
   margin: 10px;
   border: 1px solid #ccc;
-  box-shadow: 2px 2px 6px 0px rgba(14, 14, 14, 0.3);
+  box-shadow: 2px 2px 6px 0px rgba(224, 218, 218, 0.3);
 }
 
 .card-container text {
   padding: 0 20px 20px;
 }
-
-.card-container {
-  width: 100%;
-  /*whatever size you want your container*/
-  border: 3px solid rgb(12, 12, 12);
-  display: flex;
-  /*Make sure to call this on your container*/
-  align-items: stretch;
-  /*stretches all cards same height*/
-  justify-content: space-around;
-  /*some space between cards*/
-  height: calc(100% - 15px);
-  margin: 10px !important;
-  height: 70vh;
-  width: auto;
-  margin-bottom: 15px;
-  flex-wrap: wrap;
-  flex: initial;
-}
-
 .map-responsive {
 
   margin-top: 40px;
@@ -237,6 +218,7 @@ table {
   text-align: center;
   background-color:  #343737;
   color: #fff;
+ 
 }
 
 .center {
@@ -340,25 +322,10 @@ footer i:hover {
       #logo {
         font-size: 1rem;
       }
-
-
-
     }
-
     @media screen and (max-width: 800px) {
-
       .table {
         font-size: 0.5rem;
-
-      }
-
-
-      .card-title {
-        font-size: 1.5rem;
-      }
-
-      .card-text {
-        font-size: 1rem;
       }
       .th {
         display: none;
@@ -366,7 +333,9 @@ footer i:hover {
       .table {
         font-size: 0.75rem;
       }
-
+      img {
+       column-count:1;
+      }
     }
   }
 }
