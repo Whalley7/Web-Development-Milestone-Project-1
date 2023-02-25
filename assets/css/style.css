@@ -144,7 +144,7 @@ body {
 
 address {
   color: #fff;
-  background-color: rgb(81, 80, 80);
+  background-color: rgb(17, 16, 16);
   float: inherit;
   padding: 30px 0 30px;
   text-align: center;
@@ -175,11 +175,12 @@ li a.nav-link.active {
 
 
  li a.nav-link:hover:not(.active) {
-  background-color: #ef9ad3;
+  background-color: #757374;
   color: #fff;
 }
 li a.nav-link:hover{
-  border-bottom: 1px solid #ef9ad3;
+  border-bottom: 1px solid #757374;
+  color: #fff;
 }
 
 
@@ -249,10 +250,12 @@ table {
 
 footer {
   height: 150px;
+  margin-bottom: 0;
 }
 
 .social-networks {
   text-align: center;
+  margin-top: 0;
 
 }
 
