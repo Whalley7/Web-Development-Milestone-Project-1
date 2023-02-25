@@ -3,45 +3,44 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gym Website.">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="copyright" content="Milestone One.">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
- 
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
- <!--<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>--->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
- 
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" >
+  <link rel="stylesheet" href="assets/css/style.css" >
+
   <title>Phoenix Gym</title>
 </head>
 <!-- LOGO AND NAV BAR -->
 <header>
-  <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top home-navbar">
+  <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top home-navbar" aria-labelledby="mainmenulabel">
     <img src="assets/images/phoenix-logoTNP.png" height="75" width="50" alt="logo">
     <a class="navbar-brand" href="#">
       <h1 class="logo">Phoenix Gym</h1>
     </a>
-    <button class="navbar-toggler"  aria-label="Toggle collapsible navigation" type="button" data-toggle="collapse" data-target="#navbarCollapse">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <button class="navbar-toggler" aria-labelledby="navbar-toggler" type="button" data-toggle="collapse"
+    data-target="#navbarCollapse">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    <!-- NAV BAR LINKS -->
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav ml-auto text-uppercase" nav-role="navigation">
+  <!-- NAV BAR LINKS -->
+
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav ml-auto text-uppercase" nav-role="navigation" id="menu-id" aria-hidden="true">
+      <li class="nav-item" role="navigation">
+        <a class="nav-link active" href="index.html" aria-label="Link to hone">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="gallery.html" aria-label="Link to gallery page">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="information.html" aria-label="Link to information page">Information</a>
+      </li>
         <li class="nav-item">
-          <a class="nav-link active" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="gallery.html">Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="information.html">Information</a>
-        </li>
-          <li class="nav-item">
-          <a class="nav-link" href="location.html">Location</a>
-        </li>
+        <a class="nav-link" href="location.html" aria-label="Link to location page">Location</a>
+      </li>
       </ul>
     </div>
   </nav>
@@ -55,69 +54,69 @@
   <!--code modified and acreditation to https://mdbootstrap.com/docs/standard/extended/gallery/ -->
   <div class="row">
   <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-    <img src="assets/images/woman-squatsTNP.png"
+    <img src="assets/images/back-barAVIF.avif"
       class="w-100 shadow-1-strong rounded mb-4 responsive"
       alt="photo of woman doing squats">
-    <img src="assets/images/ropesTNP.png"
+    <img src="assets/images/barAVIF.avif"
       class="w-100 shadow-1-strong rounded mb-4 responsive"
       alt="photo of woman lifting exercise ropes">
   </div>
   <div class="col-lg-4 mb-4 mb-lg-0">
-    <img src="assets/images/friendly-imgTNP.png" 
+    <img src="assets/images/boxerAVIF (2).avif" 
       class="w-100 shadow-1-strong rounded mb-4 responsive" 
       alt="photo of women sitting on mats">
 
-    <img src="assets/images/gym-heroine-imageTNP.png" 
+    <img src="assets/images/bullworkerAVIF.avif" 
       class="w-100 shadow-1-strong rounded mb-4 responsive"
       alt="photo of woman using back weight">
   </div>
 
   <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
     <img
-      src="assets/images/ball-matTNP.png"
+      src="assets/images/bwWeighAVIF.avif"
       class="w-100 shadow-1-strong rounded mb-4 responsive"
       alt="photo of woman exercising with ball"
     >
     <img
-      src="assets/images/bullworkerTNP.png"
+      src="assets/images/chellengAVIF.avif"
       class="w-100 shadow-1-strong rounded mb-4 responsive"
       alt="photo of man exercising with bullworker"
     >
   </div>
   <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
     <img
-      src="assets/images/mature-womanTNP.png"
+      src="assets/images/drapeballAVIF.avif"
       class="w-100 shadow-1-strong rounded mb-4 responsive"
       alt="photo of mature woman exercising on bike"
     >
     <img
-      src="assets/images/mirror-weightsTNP.png responsive"
-      class="w-100 shadow-1-strong rounded mb-4"
+      src="assets/images/dumbellsAVIF.avif"
+      class="w-100 shadow-1-strong rounded mb-4 responsive"
       alt="photo of woman back weight responsive"
     >
   </div>
   <!--Adobe free image-->
   <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
     <img
-      src="assets/images/man-pushupsTNP.png"
+      src="assets/images/greenballAVIF.avif"
       class="w-100 shadow-1-strong rounded mb-4 responsive"
       alt="photo of man doing pushups"
     >
    <img
-      src="assets/images/man-restingTNP.png"
+      src="assets/images/gym-bikesAVIF.avif"
       class="w-100 shadow-1-strong rounded mb-4 responsive"
       alt="photo of man resting after boxing"
     >
   </div>
   <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
     <img
-      src="assets/images/weights2TNP.png"
+      src="assets/images/lungeAVIF.avif"
       class="w-100 shadow-1-strong rounded mb-4 responsive"
       alt="photo of man working with weigths" 
       >
 
    <img
-      src="assets/images/shoulderTNP.png"
+      src="assets/images/pickupAVIF.avif"
       class="w-100 shadow-1-strong rounded mb-4 responsive"
       alt="photo of woman exercising on mat with ball"
     >
@@ -127,16 +126,13 @@
 </section>
 <footer class="container-fluid">
   <ul class="social-networks"">
-      <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
-    
-      <li><a href="https://www.twitter.com" target="_blank"> <i class="fa fa-twitter-square" aria-hidden="true"></i></i>
-       
-      <li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube-square" aria-hidden="true"></i></li>
-      
-      <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></li>
-        
+    <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+      <li><a href="https://www.twitter.com" target="_blank"> <i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+      <li><a href="https://www.youtube.com" target="_blank"><i  class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
+      <li><a href="https://www.instagram.com" target="_blank"><i  class="fa fa-instagram" aria-hidden="true"></i></a></li>
   </ul>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous" defer></script>
     </body>
-
 </html>
