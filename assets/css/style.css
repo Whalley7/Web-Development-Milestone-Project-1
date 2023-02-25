@@ -144,7 +144,7 @@ body {
 
 address {
   color: #fff;
-  background-color: rgba(60, 60, 60);
+  background-color: rgb(81, 80, 80);
   float: inherit;
   padding: 30px 0 30px;
   text-align: center;
@@ -175,7 +175,7 @@ li a.nav-link.active {
 
 
  li a.nav-link:hover:not(.active) {
-  background-color: hsl(320, 73%, 77%);
+  background-color: #ef9ad3;
   color: #fff;
 }
 li a.nav-link:hover{
@@ -196,7 +196,7 @@ li a.nav-link:hover{
   padding: 1em;
   margin: 10px;
   border: 1px solid #ccc;
-  box-shadow: 2px 2px 6px 0px rgba(224, 218, 218, 0.3);
+  box-shadow: 2px 2px 6px 0px rgba(124, 121, 121, 0.3);
 }
 
 .card-container text {
@@ -307,8 +307,9 @@ footer i:hover {
       .address {
         font-size: 1rem;
       }
-.transport, information-text {
-  text-align: center;
+
+.h3.information-text {
+  text-align:center;
 }
 
 .travel {
