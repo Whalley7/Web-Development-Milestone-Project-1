@@ -9,14 +9,14 @@ body {
 /*-------------------Headings-----------------------------*/
 .header-container {
   padding: 5px;
-  background: #343737;
+  background: #ef9ad3;
   color: white;
   font-size: 30px;
   height: 60px;
   margin-top: 100px;
   width: 100%;
   text-align: center;
-  position: sticky;
+  position: relative;
 }
 
 .nav-link {
@@ -76,7 +76,7 @@ body {
 /*-------------------------font colour for label-----------------------------------*/
 
 #label {
-  font-size: 130%;
+  font-size: 120%;
   font-family: roboto;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -175,11 +175,11 @@ li a.nav-link.active {
 
 
  li a.nav-link:hover:not(.active) {
-  background-color: #c8bebe;
+  background-color: hsl(320, 73%, 77%);
   color: #fff;
 }
 li a.nav-link:hover{
-  border-bottom: 1px solid #777777;
+  border-bottom: 1px solid #ef9ad3;
 }
 
 
@@ -214,7 +214,7 @@ li a.nav-link:hover{
 .map-responsive iframe {
   left: 0;
   top: 0;
-  height: 100%;
+  height: auto%;
   width: 100%;
   position: absolute;
 
@@ -270,10 +270,6 @@ footer i:hover {
   color: #777777;
 }
 
-#iframe {
-  vertical-align: middle;
-  position: relative;
-}
 
 
 @media screen and (max-width: 1393px) {
@@ -300,12 +296,7 @@ footer i:hover {
       max-width: 25%;
       padding: 0 4px;
     }
-    .header-container {
-      display:none;
-    }
 
-  
-   
     .responsive {
       width: 100%;
       height: auto;
@@ -315,13 +306,7 @@ footer i:hover {
 
       .address {
         font-size: 1rem;
-      }   #navbarCollapsable 
-{
-    position:absolute;
-    z-index:1;
-
-
-}
+      }
 .transport, information-text {
   text-align: center;
 }
@@ -334,6 +319,8 @@ footer i:hover {
         background-position: center;
         background-repeat: no-repeat;
       }
+
+
 
     .address  h4 {
         font-size: 0.5rem;
@@ -367,7 +354,7 @@ footer i:hover {
         font-size: 1rem;
       }
 
-     ]
+     
       #logo {
         font-size: 1rem;
       }
@@ -391,7 +378,7 @@ footer i:hover {
       img {
        column-count:1;
       }
-     ]
+     
     }
     @media (max-width: 480px) {
       .text {
