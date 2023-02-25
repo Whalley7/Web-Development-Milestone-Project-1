@@ -300,12 +300,35 @@ footer i:hover {
       max-width: 25%;
       padding: 0 4px;
     }
+    .header-container {
+      display:none;
+    }
 
+  
+   
+    .responsive {
+      width: 100%;
+      height: auto;
+    }
+  }
     @media screen and (max-width: 500px) {
 
       .address {
         font-size: 1rem;
-      }
+      }   #navbarCollapsable 
+{
+    position:absolute;
+    z-index:1;
+
+
+}
+.transport, information-text {
+  text-align: center;
+}
+
+.travel {
+  text-align: center;
+}
 
       .logo {
         background-position: center;
@@ -318,11 +341,17 @@ footer i:hover {
 
       .information-text  {
         font-size: 2rem;
-      }
       
+      }
+
       th {
         display: none;
 
+      }
+    
+      .responsive {
+        width: 100%;
+        height: auto;
       }
     }
 
@@ -338,9 +367,7 @@ footer i:hover {
         font-size: 1rem;
       }
 
-      /* Header/Logo Title */
-
-
+     ]
       #logo {
         font-size: 1rem;
       }
@@ -349,6 +376,12 @@ footer i:hover {
       .table {
         font-size: 0.5rem;
       }
+
+      .travel {
+       width:100px;
+       height: auto;
+    }
+       }
       .th {
         display: none;
       }
@@ -358,6 +391,7 @@ footer i:hover {
       img {
        column-count:1;
       }
+     ]
     }
     @media (max-width: 480px) {
       .text {
@@ -372,7 +406,7 @@ footer i:hover {
       .card img {
         width: 100%;
         height: auto;
-    }
-    }
+    
+    
   }
 }
