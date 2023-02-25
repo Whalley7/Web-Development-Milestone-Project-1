@@ -176,7 +176,7 @@ table {
 
 /*-------------------------font colour for label-----------------------------------*/
 
-/*#label {
+/label {
   font-size: 120%;
   font-family: roboto;
   text-transform: uppercase;
@@ -186,15 +186,16 @@ table {
   padding-top: 40px;
   padding-left: 10px;
   background-color: rgba(241, 107, 216, 0.7);
-  bottom: 150px;
+  bottom: 30px;
   right: 150px;
   position: absolute;
-}*/
+}
+
 
 /*---------font-colour-------------------------------*/
-/*#label {
+#label h3 {
   color: #fff;
-}*/
+}
 
 
 
