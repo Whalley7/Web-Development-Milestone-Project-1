@@ -238,11 +238,15 @@ table {
 }
 
 .map-responsive iframe {
-  left: 0;
+  left: 20%;
   top: 0;
   position: absolute;
-
+   text-align: center;
 }
+
+iframe (
+  text-align: center;
+)
 
 /*------Setting for address---------- */
 
