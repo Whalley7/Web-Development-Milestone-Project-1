@@ -6,7 +6,7 @@ body {
   font-family: roboto;
   padding: 0;
   border: 0;
-  color:#343737;
+  color: #343737;
 }
 
 /*------------------------------ Home Page - Hero Image - tutorial Code Institute------------------------*/
@@ -33,6 +33,12 @@ body {
     transform: scale(1.1);
   }
 }
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
 
 .list-inline-item:not(:last-child) {
   margin: 0;
@@ -63,8 +69,9 @@ body {
   background-position: left;
   background-repeat: no-repeat;
 }
+
 .nav-link {
-  font-weight:bolder;
+  font-weight: bolder;
 }
 
 /*--- navbar links ---*/
@@ -76,22 +83,25 @@ a.nav-link.active {
 
 
 
-.nav-link:hover{
+.nav-link:hover {
   color: #fff;
 }
 
- a.nav-link:hover:not(.active) {
+a.nav-link:hover:not(.active) {
   background: #757374;
 }
-li a.nav-link:hover{
+
+li a.nav-link:hover {
   border-bottom: 1px solid #757374;
   color: #fff;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
 
-
-<!--------cards --------------->
-#card-info {
+< !--------cards --------------->#card-info {
   margin-top: 20px;
 }
 
@@ -134,14 +144,16 @@ li a.nav-link:hover{
 
 
 
-.gallery {
-  margin-top:  20px;
+#gallery {
+  margin-top: 20px;
 }
+
 /*-----------------------------colour for Information table-----------------------*/
 
 table {
-  text-align:center;
+  text-align: center;
 }
+
 .kettlebell {
   background-color: #fabcfb
 }
@@ -176,7 +188,7 @@ table {
 
 /*-------------------------font colour for label-----------------------------------*/
 
-/label {
+#label {
   font-size: 120%;
   font-family: roboto;
   text-transform: uppercase;
@@ -197,18 +209,19 @@ table {
   color: #fff;
 }
 
-
+.information-text {
+  text-align: center;
+  margin-top: 20px;
+}
 
 .contact {
-  text-align:center;
+  text-align: center;
 }
 
 .responsive {
   width: 100%;
   height: auto;
 }
-
-
 
 .map-responsive {
 
@@ -227,18 +240,18 @@ table {
   position: absolute;
 
 }
+
 /*------Setting for address---------- */
 
 address {
   color: #fff;
   background-color: rgb(17, 16, 16);
   float: inherit;
-  padding: 30px 0 30px;
   text-align: center;
   margin-top: 10px;
   font-family: Roboto;
-
 }
+
 .footer {
   height: 200px;
   padding-top: 25px;
@@ -246,19 +259,22 @@ address {
   margin-bottom: 0;
 }
 
-.timetable {
+#timetable {
   text-align: center;
-  background-color:  #343737;
+  background-color: #343737;
   color: #fff;
- 
+}
+
+.timetable-times {
+  text-align: cemter;
 }
 
 .center {
   margin-left: auto;
   margin-right: auto;
-  width:  100%;
+  width: 100%;
+  text-align: center;
 }
-
 
 /* Font awesome and css from W3 Schools*/
 
@@ -267,15 +283,15 @@ footer {
   margin-bottom: 0;
 }
 
+.general-sub {
+  text-align: center;
+}
+
 .list-inline.social-links {
   text-align: center;
   margin-top: 0;
-  
+}
 
-}
-.uppercase.general-sub {
-  text-align: center;
-}
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -286,7 +302,7 @@ footer {
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-facebook {
@@ -316,159 +332,78 @@ footer {
 
 
 footer i:hover {
-  color:#14a3e0;
+  color: #14a3e0;
 }
-.social-networks li{
+
+.social-networks li {
   display: inline;
 }
 
-.social-networks i{
+.social-networks i {
   font-size: 160%;
   margin: 1%;
   padding: 5%;
   color: #777777;
 }
 
+/*----------------------------Media Queries*/
 
+@media screen and (max-width: 943px) {
 
-
-
-
-/*------------------- colour for h2------------------------ */
-
-
-
-
-
-
-
-@media screen and (max-width: 1393px) {
-
-  hr {
+  .thead {
     display: none;
   }
 
-  @media screen and (max-width: 943px) {
-
-    .thead {
-      display: none;
-    }
-
-  
-    .row {
-      display: flex;
-      flex-wrap: wrap;
-      padding: 0 4px;
-    }
-    /* Create four equal columns that sits next to each other */
-    .column {
-      flex: 25%;
-      max-width: 25%;
-      padding: 0 4px;
-    }
-
-    .responsive {
-      width: 100%;
-      height: auto;
-    }
+  #label {
+    display: none;
   }
-    @media screen and (max-width: 500px) {
 
-      .address {
-        font-size: 1rem;
-      }
+  @media screen and (max-width: 800px) {
 
-.information-text {
-  text-align:center;
+  .th {
+    display: none;
+  }
+
+  .table {
+    font-size: 1.5rem;
+  }
+
+  img {
+    column-count: 1;
+  }
+
+
 }
 
-.travel {
-  text-align: center;
-}
+@media screen and (max-width: 500px) {
 
-      .logo {
-        background-position: center;
-        background-repeat: no-repeat;
-      }
-
-
-
-    .address  h4 {
-        font-size: 0.5rem;
-      }
-
-      .information-text  {
-        font-size: 2rem;
-      
-      }
-
-      th {
-        display: none;
-
-      }
-    
-      .responsive {
-        width: 100%;
-        height: auto;
-      }
-      #label {
-        width: 100%;
-        position: relative;
-      }
-    }
-
-
-    @media screen and (max-width: 1393px) {}
-    hr {
-      display: none;
-    }
-
-    @media screen and (max-width: 943px) {
-
-      .address {
-        font-size: 1rem;
-      }
-
-     
-      #logo {
-        font-size: 1rem;
-      }
-    }
-    @media screen and (max-width: 800px) {
-      .table {
-        font-size: 0.5rem;
-      }
-
-      .travel {
-       width:100px;
-       height: auto;
-    }
-       }
-      .th {
-        display: none;
-      }
-      .table {
-        font-size: 0.75rem;
-      }
-      img {
-       column-count:1;
-      }
-     
-    }
-    @media (max-width: 480px) {
-      .text {
-        font-size: 16px;
-      }
-
-      .responsive {
-        width: 100%;
-        height: auto;
-      }
-
-      .card img {
-        width: 100%;
-        height: auto;
-    
-    
+  .address {
+    font-size: 1rem;
   }
+
+  table {
+    font-size: 1rem;
+  }
+
+  .information-text {
+    text-align: center;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .information-text {
+    font-size: 2rem;
+  }
+
+  th {
+    display: none;
+
+  }
+
+  #label {
+    display: none;
+  }
+}
 }
