@@ -70,13 +70,14 @@ User stories
 *  To inform the users about what is on offer when they are in the gym
 *  To offer the user an opportunity to contact the gym with a telephone number and email address.
 
-Wireframes here
+
 
 
 ### Wireframes:
 
+* Wireframes were developed in Balsamiq.  The following link to open the file:-
 
-These are optional if you have any drawings or diagrams about how the site is intended to look include them here
+*  [Wireframes](assets/docs/Milestone One - wireframe.pdf)
 
 ### Colour Scheme:
 

@@ -5,9 +5,6 @@ body {
   padding: 0;
   border: 0;
 }
-
-/*------------------------------ Home Page - Hero Image - tutorial Code Institute------------------------*/
-
 #hero-image {
   height: 100vh;
   width: 100%;
@@ -18,14 +15,12 @@ body {
   animation-name: hero-zoom;
   animation-duration: 5s;
   animation-fill-mode: forwards;
-
 }
 
 @keyframes hero-zoom {
   from {
     transform: scale(1);
   }
-
   to {
     transform: scale(1.1);
   }
@@ -35,21 +30,15 @@ body {
   width: 100%;
   height: auto;
 }
-
-
 .list-inline-item:not(:last-child) {
   margin: 0;
 }
-
 #hero-outer {
   height: 600px;
   width: 100%;
   overflow: hidden;
   position: relative;
 }
-
-
-/*-------------------Headings-----------------------------*/
 .header-container {
   padding: 5px;
   background: rgb(17, 16, 16);
@@ -71,14 +60,10 @@ body {
   font-weight: bolder;
 }
 
-/*--- navbar links ---*/
-
 a.nav-link.active {
   background: #9fd1e6;
 
 }
-
-
 
 .nav-link:hover {
   color: #fff;
@@ -98,8 +83,6 @@ img {
   height: auto;
 }
 
-/*--------cards --------------->#card-info*/
- 
   .margin-top {  
   margin-top: 20px; 
 }
@@ -108,10 +91,7 @@ img {
   margin-top: 10px;
   height:20px;
   width: 75%;
- 
 }
-
-
 .card img {
   width: 100%;
   text-align: center;
@@ -132,9 +112,6 @@ img {
 .card-container text {
   padding: 0 20px 20px;
 }
-
-
-/*--------------------------- circle container - Home Page ---------------------------*/
 .circle {
   width: 175px;
   height: 175px;
@@ -153,8 +130,6 @@ img {
 h3 {
   text-align: center;
 }
-
-/*-----------------------------colour for Information table-----------------------*/
 
 table {
   text-align: center;
@@ -192,8 +167,6 @@ table {
   background-color: paleturquoise;
 }
 
-/*-------------------------font colour for label-----------------------------------*/
-
 #label {
   font-size: 120%;
   font-family: roboto;
@@ -209,16 +182,9 @@ table {
   position: absolute;
 }
 
-
-
-
-
-/*---------font-colour-------------------------------*/
 #label h3 {
   color: #fff;
 }
-
-
 .information-text {
   text-align: center;
   margin-top: 20px;
@@ -251,7 +217,6 @@ iframe {
   text-align: center;
 }
 
-/*------Setting for address---------- */
 address {
   color: #fff;
   background-color: rgb(17, 16, 16);
@@ -278,15 +243,12 @@ footer {
   text-align: center;
 }
 
-
 .center  {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   text-align: center;
 }
-
-/* Font awesome and css from W3 Schools*/
 
 footer {
   height: 150px;
@@ -355,8 +317,6 @@ footer i:hover {
   color: #777777;
 }
 
-/*------------Media Queries*/
-
 @media screen and (max-width: 943px) {
 
  th {
@@ -392,7 +352,6 @@ footer i:hover {
   }
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
 
   .row {
