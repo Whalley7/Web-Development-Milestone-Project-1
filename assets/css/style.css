@@ -4,7 +4,6 @@ body {
   font-family: roboto;
   padding: 0;
   border: 0;
-  color: #343737;
 }
 
 /*------------------------------ Home Page - Hero Image - tutorial Code Institute------------------------*/
@@ -205,7 +204,7 @@ table {
   padding-top: 40px;
   padding-left: 10px;
   background-color: rgba(241, 107, 216, 0.7);
-  bottom: 50px;
+  bottom: 100px;
   right: 150px;
   position: absolute;
 }
@@ -341,7 +340,6 @@ footer {
   color: white;
 }
 
-
 footer i:hover {
   color: #14a3e0;
 }
@@ -356,8 +354,6 @@ footer i:hover {
   padding: 5%;
   color: #777777;
 }
-.circle-container img
-
 
 /*------------Media Queries*/
 
@@ -430,3 +426,4 @@ footer i:hover {
   }
 }
 }
+

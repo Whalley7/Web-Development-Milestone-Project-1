@@ -288,11 +288,10 @@ The W3 Schools website was used to validate the HTML pages and Jigsaw for the cs
 
 I deployed the page on GitHub pages via the following procedure: -​
 
-From the project's repository, go to the Settings tab.
-From the left-hand menu, select the Pages tab.
-Under the Source section, select the Main branch from the drop-down menu and click Save.
-A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.​You can find the live site via the following URL - live webpage
-
+In the project's respository, go to the settings tab.
+Navigate to the left-hand menu and selct the Pages tab.
+Select the Main branch from under the Source section drop-down menu and click save.
+A message will be visibel to indicate a successful deployment to Github pages and this will provid a live link.  The website can be found via the following URL
 
 ##  Tech
 
@@ -375,9 +374,9 @@ https://www.freepik.com/
 
 *  The HTML files were validated through the W3 Schools HTML Validation process
 
-
-Content
-All content was written by the developer.  Where ideas from other software has been included acknowledgment has been documented in the files and in this project document.
+*  Content
+      * All content was written by the developer.  Where ideas from other software has been 
+        included acknowledgment has been documented in the files and in this project document.
 
 
 
