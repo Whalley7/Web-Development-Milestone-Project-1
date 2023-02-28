@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-
-
 body {
   font-family: roboto;
   padding: 0;
@@ -33,6 +31,12 @@ body {
     transform: scale(1.1);
   }
 }
+
+{
+  box-sizing: border-box;
+}
+
+
 
 .responsive {
   width: 100%;
@@ -109,6 +113,7 @@ img {
 
 .card img {
   width: 100%;
+  text-align: center;
 }
 
 .card-img-top {
@@ -120,10 +125,6 @@ img {
 .card-container {
   font-size: 1em;
   position: relative;
-  flex: 0 0 200px;
-  padding: 1em;
-  margin: 10px;
-  border: 1px solid #ccc;
   box-shadow: 2px 2px 6px 0px rgba(124, 121, 121, 0.3);
 }
 
@@ -143,8 +144,6 @@ img {
 .top-heading {
   color: #fff;
 }
-
-
 
 #gallery {
   margin-top: 20px;
@@ -215,6 +214,7 @@ table {
   color: #fff;
 }
 
+
 .information-text {
   text-align: center;
   margin-top: 20px;
@@ -223,43 +223,41 @@ table {
 .contact {
   text-align: center;
 }
-
 .responsive {
   width: 100%;
   height: auto;
 }
 
-.map-responsive {
-    overflow:hidden;
-    padding-bottom:60%;
-    position:relative;
-    text-align: center;
-
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
 }
 
-.map-responsive iframe {
-  left: 20%;
-  top: 0;
-  position: absolute;
-   text-align: center;
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
 }
 
-iframe (
+iframe {
   text-align: center;
-)
+}
 
 /*------Setting for address---------- */
-
 address {
   color: #fff;
   background-color: rgb(17, 16, 16);
   float: inherit;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 20px;
   font-family: Roboto;
 }
 
-.footer {
+footer {
   height: 200px;
   padding-top: 25px;
   position: absolute;
@@ -276,7 +274,8 @@ address {
   text-align: center;
 }
 
-.center {
+
+.center  {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -353,11 +352,36 @@ footer i:hover {
   color: #777777;
 }
 
-/*----------------------------Media Queries*/
+/*----------------* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.col-lg-4 col-md-6 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.circle-container:after {
+  content: "";
+  flex-grow: 999;
+}
+
+
+/*------------Media Queries*/
 
 @media screen and (max-width: 943px) {
 
-  .thead {
+ th {
     display: none;
   }
 
@@ -365,13 +389,30 @@ footer i:hover {
     display: none;
   }
 
+  img {
+    column-count: 1;
+  }
+
+  #center {
+    text-align: center;
+  }
+
+  .col-lg-4 col-md-6 {
+    width: 100%;
+    column-count: 1;
+  } 
+  .card {
+  
+  column-count:1 ;
+
+  }
   @media screen and (max-width: 800px) {
 
   .th {
     display: none;
   }
 
-  .table {
+  table {
     font-size: 1.5rem;
   }
 
@@ -382,9 +423,20 @@ footer i:hover {
 
 }
 
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-lg-4 col-md-6 {
+    width: 100%;
+  }
+
+  .row {
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 500px) {
 
-  .address {
+  address {
     font-size: 1rem;
   }
 
@@ -403,12 +455,6 @@ footer i:hover {
   .information-text {
     font-size: 2rem;
   }
-
-  th {
-    display: none;
-
-  }
-
   #label {
     display: none;
   }

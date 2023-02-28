@@ -106,3 +106,9 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+
+![Screenshot of working site](assets/images/ful-screen-landing-page.jpg)
+
+
+![am i responsive](https://ui.dev/amiresponsive?url=https://8000-whalley7-webdevelopment-hqu01v8ryzk.ws-eu88.gitpod.io/index.html)
