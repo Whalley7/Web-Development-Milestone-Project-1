@@ -32,12 +32,6 @@ body {
   }
 }
 
-{
-  box-sizing: border-box;
-}
-
-
-
 .responsive {
   width: 100%;
   height: auto;
@@ -111,6 +105,14 @@ img {
   margin-top: 20px; 
 }
 
+#save {
+  margin-top: 10px;
+  height:20px;
+  width: 75%;
+ 
+}
+
+
 .card img {
   width: 100%;
   text-align: center;
@@ -135,8 +137,8 @@ img {
 
 /*--------------------------- circle container - Home Page ---------------------------*/
 .circle {
-  width: 200px;
-  height: 200px;
+  width: 175px;
+  height: 175px;
   border-radius: 50%;
   text-align: center;
 }
@@ -203,10 +205,13 @@ table {
   padding-top: 40px;
   padding-left: 10px;
   background-color: rgba(241, 107, 216, 0.7);
-  bottom: 30px;
+  bottom: 50px;
   right: 150px;
   position: absolute;
 }
+
+
+
 
 
 /*---------font-colour-------------------------------*/
@@ -351,30 +356,7 @@ footer i:hover {
   padding: 5%;
   color: #777777;
 }
-
-/*----------------* {
-  box-sizing: border-box;
-}
-
-/* Create three equal columns that floats next to each other */
-.col-lg-4 col-md-6 {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.circle-container:after {
-  content: "";
-  flex-grow: 999;
-}
+.circle-container img
 
 
 /*------------Media Queries*/
@@ -389,45 +371,33 @@ footer i:hover {
     display: none;
   }
 
-  img {
-    column-count: 1;
+  #save {
+    background-color:  rgba(241, 107, 216, 0.7);
   }
+
 
   #center {
     text-align: center;
   }
 
-  .col-lg-4 col-md-6 {
-    width: 100%;
-    column-count: 1;
-  } 
-  .card {
-  
-  column-count:1 ;
 
-  }
   @media screen and (max-width: 800px) {
 
-  .th {
+  th {
     display: none;
   }
 
   table {
-    font-size: 1.5rem;
+    font-size: 1em;
   }
 
-  img {
-    column-count: 1;
+  #save {
+    font-size:0.75em;
   }
-
-
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .col-lg-4 col-md-6 {
-    width: 100%;
-  }
 
   .row {
     text-align: center;
@@ -437,11 +407,11 @@ footer i:hover {
 @media screen and (max-width: 500px) {
 
   address {
-    font-size: 1rem;
+    font-size: 1em;
   }
 
   table {
-    font-size: 1rem;
+    font-size: 1em;
   }
 
   .information-text {
@@ -449,11 +419,11 @@ footer i:hover {
   }
 
   .logo {
-    font-size: 1.5rem;
+    font-size: 1.5em;
   }
 
   .information-text {
-    font-size: 2rem;
+    font-size: 2em;
   }
   #label {
     display: none;

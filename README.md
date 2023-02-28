@@ -112,3 +112,41 @@ Happy coding!
 
 
 ![am i responsive](https://ui.dev/amiresponsive?url=https://8000-whalley7-webdevelopment-hqu01v8ryzk.ws-eu88.gitpod.io/index.html)
+
+
+ ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`
+- ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `#c5f015`
+- ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) `#1589F0`
+
+
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+            
+Valid CSS!
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
+
+<p>
+<a href="https://ui.dev/amiresponsive?url=https://8000-whalley7-webdevelopment-hqu01v8ryzk.ws-eu88.gitpod.io"> <img style="border:0; width:300px;height:300px"/></a</p>
+
+
+     ![responsive](https://8000-whalley7-webdevelopment-hqu01v8ryzk.ws-eu88.gitpod.io/assets/images/boxerAVIF.avif)
+
+
+
+
+     # Real Cool Heading
+
+     [Go to Real Cool Heading section](#-real-cool-heading)
+
+See! Easy: Go to Real Cool Heading section
