@@ -5,6 +5,36 @@ body {
   padding: 0;
   border: 0;
 }
+
+/*----------------Settings for logo */
+.logo {
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+
+/*----------------------Hero Image - Code Institute Love Running-*/
+
+
+
+#hero-outer {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.header-container {
+  padding: 5px;
+  background: rgb(17, 16, 16);
+  color: #fff;
+  font-size: 30px;
+  height: 60px;
+  margin-top: 100px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
 #hero-image {
   height: 100vh;
   width: 100%;
@@ -26,34 +56,37 @@ body {
   }
 }
 
-.responsive {
-  width: 100%;
-  height: auto;
-}
-.list-inline-item:not(:last-child) {
-  margin: 0;
-}
-#hero-outer {
-  height: 600px;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-.header-container {
-  padding: 5px;
-  background: rgb(17, 16, 16);
-  color: #fff;
-  font-size: 30px;
-  height: 60px;
-  margin-top: 100px;
-  width: 100%;
-  text-align: center;
-  position: relative;
+/*----------------Label on animation*/
+
+#label {
+  font-size: 120%;
+  font-family: roboto;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  width: 300px;
+  height: 175px;
+  padding-top: 40px;
+  padding-left: 10px;
+  background-color: rgba(241, 107, 216, 0.7);
+  bottom: 100px;
+  right: 150px;
+  position: absolute;
 }
 
-.logo {
-  background-position: left;
-  background-repeat: no-repeat;
+#label h3 {
+  color: #fff;
+}
+
+/*--------------Setting for the label to disappear on media query*/
+#save {
+  margin-top: 10px;
+  height:20px;
+  width: 75%;
+}
+
+/*---------------------Navbar link settings*/
+.list-inline-item:not(:last-child) {
+  margin: 0;
 }
 
 .nav-link {
@@ -65,19 +98,22 @@ a.nav-link.active {
 
 }
 
-.nav-link:hover {
+a.nav-link:hover {
   color: #fff;
 }
 
 a.nav-link:hover:not(.active) {
-  background: #757374;
+  background: #d75797;
 }
 
-li a.nav-link:hover {
+/*---------------For accessibility*/
+a.nav-link:hover {
   border-bottom: 1px solid #757374;
-  color: #fff;
+  color: #201e1e;
 }
 
+
+/*-----------------------Max width for images*/
 img {
   max-width: 100%;
   height: auto;
@@ -87,11 +123,8 @@ img {
   margin-top: 20px; 
 }
 
-#save {
-  margin-top: 10px;
-  height:20px;
-  width: 75%;
-}
+
+/*--------------------------Landing Page Circle*/
 .card img {
   width: 100%;
   text-align: center;
@@ -119,9 +152,13 @@ img {
   text-align: center;
 }
 
+/*------------------------Font colour*/
 .top-heading {
   color: #fff;
 }
+
+/*------------------Gallery Page*/
+
 
 #gallery {
   margin-top: 20px;
@@ -131,6 +168,80 @@ h3 {
   text-align: center;
 }
 
+
+
+/*-----------------Information Page Table*/
+
+
+
+/*---------------------Address Formatting*/
+.contact {
+  text-align: center;
+}
+
+address {
+  color: #fff;
+  background-color: rgb(17, 16, 16);
+  float: inherit;
+  text-align: center;
+  margin-top: 20px;
+  font-family: Roboto;
+}
+
+/*---------------------Mapp formatting*/
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+iframe {
+  text-align: center;
+}
+
+/*----------------Footer Formatting*/
+
+footer {
+  height: 200px;
+  padding-top: 25px;
+  position: absolute;
+  margin-bottom: 0;
+}
+
+/*---------------------Timetable Formatting*/
+
+#timetable {
+  text-align: center;
+  background-color: #343737;
+  color: #fff;
+}
+
+.timetable-times {
+  text-align: center;
+}
+
+.center  {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+
+/*-----------------Table Settings*/
 table {
   text-align: center;
 }
@@ -167,88 +278,11 @@ table {
   background-color: paleturquoise;
 }
 
-#label {
-  font-size: 120%;
-  font-family: roboto;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  width: 300px;
-  height: 175px;
-  padding-top: 40px;
-  padding-left: 10px;
-  background-color: rgba(241, 107, 216, 0.7);
-  bottom: 100px;
-  right: 150px;
-  position: absolute;
-}
-
-#label h3 {
-  color: #fff;
-}
 .information-text {
   text-align: center;
   margin-top: 20px;
 }
 
-.contact {
-  text-align: center;
-}
-.responsive {
-  width: 100%;
-  height: auto;
-}
-
-.map-responsive{
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
-}
-
-.map-responsive iframe{
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
-}
-
-iframe {
-  text-align: center;
-}
-
-address {
-  color: #fff;
-  background-color: rgb(17, 16, 16);
-  float: inherit;
-  text-align: center;
-  margin-top: 20px;
-  font-family: Roboto;
-}
-
-footer {
-  height: 200px;
-  padding-top: 25px;
-  position: absolute;
-  margin-bottom: 0;
-}
-
-#timetable {
-  text-align: center;
-  background-color: #343737;
-  color: #fff;
-}
-
-.timetable-times {
-  text-align: center;
-}
-
-.center  {
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  text-align: center;
-}
 
 footer {
   height: 150px;
@@ -259,6 +293,8 @@ footer {
   text-align: center;
 }
 
+
+/*--------------------Social Network Links*/
 .list-inline.social-links {
   text-align: center;
   margin-top: 0;
@@ -316,21 +352,22 @@ footer i:hover {
   padding: 5%;
   color: #777777;
 }
-
+/*-----------------------Media Queries*/
 @media screen and (max-width: 943px) {
 
+/*-------------------Formatting Table*/
  th {
     display: none;
   }
 
+  /*------------------Label disappears from Landing Page*/
   #label {
     display: none;
   }
-
+/*---------------------Label colour reappears on the Price page on smaller devices*/
   #save {
     background-color:  rgba(241, 107, 216, 0.7);
   }
-
 
   #center {
     text-align: center;
@@ -339,14 +376,13 @@ footer i:hover {
 
   @media screen and (max-width: 800px) {
 
-  th {
-    display: none;
-  }
+    /*---------Table size reduction*/
 
   table {
     font-size: 1em;
   }
 
+  /*---------------Text becoming smaller*/
   #save {
     font-size:0.75em;
   }
@@ -354,6 +390,7 @@ footer i:hover {
 
 @media screen and (max-width: 600px) {
 
+  /*-----------center table on small screen*/
   .row {
     text-align: center;
   }
@@ -361,6 +398,7 @@ footer i:hover {
 
 @media screen and (max-width: 500px) {
 
+  /*------------------Font becoming smaller*/
   address {
     font-size: 1em;
   }

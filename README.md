@@ -1,152 +1,400 @@
+# Phoenix City Gym
 
+Link to responsive screenshot
 
-Welcome Whalley7,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Site Overview
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The project aim is to develop a website for a new campaign to attract clientele to a gym located in Cardiff.  The target audience is for a diverse section of the general public and pays attention to diversity (pictures of people of different ages, different cultures and body sizes).  The project provides pages to showcase particular features of the gym, including the equipment, staff, personal trainers and the benefits of joining a gym.  Included is a price list of different categories of membership, as well as a timetable to provide information on different classes provided.  Included is a map so that potential customers can easily locate the gym.
 
-## Gitpod Reminders
+## Table of Contents
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+1.  [Site Overview](#site-overview)
+2.  [Planning Stage](#planning-stage)
+     *  [Target Audience](#target-audience)
+     *  [User  Stories](#user-stories)
+     *  [Site Aims](#site-aims)
+     *  [Wireframes](#wireframes)
+     *  [Colour Scheme](#colour-scheme)
+     *  [Typography](#typography)
 
-A blue button should appear to click: _Make Public_,
+3.  [Current Features Common to all pages](#current-features-common-to-all-pages)
+      * [The Header Element:](#navigation-bar)
+      * [The Rest of the Features](#the-landing-page)
+      * [Footer](#footer)
+4.  [Future-Enhancements](#future-enhancements)
+5.  [Testing Phase](#testing-phase)
+6.  [Deployment](#deployment)
+7.  [Tech](#tech)
+8.  [Credit](#credit)
 
-Another blue button should appear to click: _Open Browser_.
+      * [Honorable mentions](#honourable-mentions)
+      *  [General reference](#general-reference)
+      *  [Content](#content)
+      *  [Media](#media)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+## Planning Stage
 
-Another blue button should appear to click: _Open Browser_.
+### Target audience
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![CI logo](https://ui.dev/amiresponsive?url=https://8000-whalley7-webdevelopment-hqu01v8ryzk.ws-eu88.gitpod.io/index.html)
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* As a user, I want to see the websites subject matter; namely what the gym has to offer.
+* As a user, I want to be able to navigate the pages and website to find what I require quickly and easily.
+* As a user, I want to learn more about what the business offers in a clear way including the times the gym is open; the classes and a clear pricing system.
+As a user, I want to be able to contact the business and know where the gym is located.
+User stories
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### User Stories
 
-------
+#### First time Visitor goals:-
 
-## Release History
+* As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+*  As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+*  As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+#### As a Returning Visitor 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+* I want to find specific information about current prices and class timetables.
+*  As a Returning Visitor, I want to find information on how the facilities available and links to social media.
+*  As a frequent user I would want to have an emailed newsletter once a month to update me on any activities, challenges at the gym.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Site Aims
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+*  To inform the user of the opening times and location
+*  To inform the users about what is on offer when they are in the gym
+*  To offer the user an opportunity to contact the gym with a telephone number and email address.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Wireframes:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* Wireframes were developed in Balsamiq.  The following link to open the file:-
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+*  [Wireframes](assets/docs/Milestone One - wireframe.pdf)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Colour Scheme:
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+*  The colour scheme chosen for the website was taken from the "Hero-Image" used in the Home Page which used bright colours, to attract the attention of the user.  This was combined with a white navigation bar and black headings on a white background to provide an uncluttered effect and does not clash with other black and white images used throughout the website.  This provided a clear contrast between the text, background and images.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+#### Colour values
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+All colour values have been converted to their Hex equivalent.
 
-------
+*  The background colour is white #fff which provides a contrast to the black header and bright colours used in images.
 
-## FAQ about the uptime script
+*  The black header colour #000000. contrasts with the bright images and picks blends with the black and white images.
 
-**Why have you added this script?**
+* The label has a background value of background-color #924587 to provide opacity.  
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+*  The Home (active) button has a colour value of #9fd1e6; which picks up colour form the Hero-Image and colour images and contrasts with the black and white images.
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+###  Typography 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+#### Fonts
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+The fonts used throughout the website includes: -
 
-**So….?**
+*  The Roboto font and the Sans Serif font.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+* The Roboto font has been designed specifically for screen use to balance reading comfort with content density.  The font is said to be web-friendly and reportedly renders well on modern web browsers as well as older browser versions to provide maximum quality of text for users.
 
-**Can I opt out?**
+*  The fonts were sourced from Google fonts, as stated in the credits.
+  
+#### Images
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+*  Imagery is important to the project,
+*  The website's appeal is to show the transformative effect of joining a gym for a leaner, stronger body shape, better health and more confidence.  This is achieved with the use of photographs throughout the website showing the use of gym equipment
+*  A diverse section of images has been used for age, race, gender and size.
+*  Bright images have been used on the Landing Page and black and white images have been interspersed throughout the website.
 
-**Anything more?**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## Current Features Common to all pages
 
----
+### Header Element
 
-Happy coding!
+![Navigation Bar](assets/docs/navigation-bar.png)
 
+![Collapsed Navigation Bar](assets/docs/collapsed-navigation-bar.png)
 
-![Screenshot of working site](assets/images/ful-screen-landing-page.jpg)
 
+The Navigation bar provides user access to all the pages and is consistent across the website.  It provides: -
 
-![am i responsive](https://ui.dev/amiresponsive?url=https://8000-whalley7-webdevelopment-hqu01v8ryzk.ws-eu88.gitpod.io/index.html)
+* The user with links to each page of the website
+* All the links provide the navigation to each page.  
+* The Home page is highlighted so that the users is aware of their position and how to return to the Home Page.
+*	On smaller screens a hamburger menu, vertically aligned is provided to ensure mobile users have an optimal experience
+*  The navigation bar is fixed at the top of the page and so is accessible to the user as they scroll down the page.
 
+### Footer
 
- ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`
-- ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `#c5f015`
-- ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) `#1589F0`
+Address and Social Media Links
 
+![Footer](assets/docs/footer-image.png)
 
-<p>
-    <a href="http://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
-            src="http://jigsaw.w3.org/css-validator/images/vcss"
-            alt="Valid CSS!" />
-    </a>
-</p>
-            
-Valid CSS!
-<p>
-<a href="http://jigsaw.w3.org/css-validator/check/referer">
-    <img style="border:0;width:88px;height:31px"
-        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-        alt="Valid CSS!" />
-    </a>
-</p>
+*  The address for the gym is featured on the first and last page of the footer.
+*  The content includes a telephone number and email address so that the user is able to contact the gym for more information.
+*  On each page are social media links.
 
-<p>
-<a href="https://ui.dev/amiresponsive?url=https://8000-whalley7-webdevelopment-hqu01v8ryzk.ws-eu88.gitpod.io"> <img style="border:0; width:300px;height:300px"/></a</p>
 
 
-     ![responsive](https://8000-whalley7-webdevelopment-hqu01v8ryzk.ws-eu88.gitpod.io/assets/images/boxerAVIF.avif)
+*  Social network links provide access to Facebook, Twitter, YouTube, Instagram and Pinterest
 
+## The Rest of the features
 
+###  Landing Page
 
+![Landing Page](assets/docs/landing-page.png)
 
-     # Real Cool Heading
+*  The Landing Page provides an animation of people of gym bikes. The animation provides movement suggesting energy.  The image is bright and depicts people already using a gymnasium.
 
-     [Go to Real Cool Heading section](#-real-cool-heading)
+![Transform Your Body](assets/docs/circular-landing-image.png)
 
-See! Easy: Go to Real Cool Heading section
+* The transformation  provides four circular images.  The use of cropped circular images allows the designer to crop out uneccessary pixels and to refocus the user's eye on the composition.  The circular images responsively scale down.
+
+### Gallery Page
+
+![Gallery](assets/docs/gallery-image.png)
+
+* The gallery allows users to see several images clearly at once to showcase the benefits of the gym.
+* The gallery images are responsive and are accessible on screens of different sizes so no information is lost for those using smaller screens.
+
+### Information Page
+
+
+
+![Price Cards](assets/docs/card-image.png)
+
+* Content cards were used to display the prices of different memberships.  The cards are responsive and resiseable so the information is not lost on different screens.
+
+Timetable
+
+
+![Timetable](assets/docs/timetable-image.png)
+
+
+*  A responsive, colourful timetable provides easy access to classes available at the gym.  
+
+###  Location Page
+
+![Map](assets/docs/map-image.png)
+
+*  The Location page provides the user with information about public transport links and car parking facilities.
+
+*  A Google Map provides the user with an interactive map to pinpoint the exact location of the gym.
+
+
+
+## Future-Enhancements
+
+At the time of designing this website I lacked the skills to provide certain features that would be included in a future website.  The features that I would include are: -
+
+*  An integrated shopping cart where users could join the gym via the website.
+*  Bookable classes:  The timetable linked to a database and paying system/membership type.  The timetable would feature a pop out informing the user of how many spaces were currently avaialabe and the staff member running the class.  If a class is full the user would be informed of this and asked it they would like to book the next available one. If the class isn't full a button would be available to book a class.
+*  A specific mobile stylesheet would be developed around the website which would include the features to join and book classes for users on smaller screens.
+*  Customer review integration. User reviews have been found to influence buying behaviours.   User reviews would be incorporated for free publicity, build trust and reliability, showcase current and new features, advocate and build brand awareness, improve engagement and user interaction, boost management approval.
+*  Once users have paid a membership form would be implemented outlining their membership status, start date, end date, date of next payment and rules and regulations about the use of equipment and behaviour inside the gym.
+*  The booking system would be also be implemented whereby when users pay, they could book a one-to-one induction with a staff member.
+*  Social media links would be implemented for news, images and user stories linked to Facebook, Instagram, Twitter, Pinterest and YouTube.
+*  An area where the last newsletter can be downloaded where it has previously been sent out monthly to current members with the inclusion of special deals and providing an introduction to new staff and information on new classes.
+*  A form email enquiry would be implemented into the website so that users could send and receive requests for information.
+*  A more accessible user design for use with assisted technology.
+*  The footer would be further utilized by having copyright information and terms and conditions
+*  Images will be stored in in an external environment such as Flickr and not in the root folder. For commercial purposes a paid content service would be implemented such as Amazon AWS Storage.
+
+
+## Testing Phrase
+
+The website was tested via the Dev Tools in Google Chrome including Lighthouse.  Below are screenshots of the performance, accessibility and best practice for each page.  
+
+##### The Landing Page
+
+Destop Result
+
+![Performance Desktop](assets/docs/desktop-peformance-landing-page.png)
+
+Mobile Result
+
+![Performance Mobile](assets/docs/mobile-performance-landing-page.png)
+
+##### The Gallery
+
+Desktop Performance
+
+![Performance Desktop](assets/docs/gallery-image-desktop.png)
+
+Mobile Performance
+
+![Gallery Mobile](assets/docs/gallery-mobile-performance.png)
+
+
+##### The Information Page
+
+Desktop Performance
+
+![Performance Mobile](assets/docs/information-desktop-performance.png)
+
+Mobile Performance
+
+![Performance Mobile](assets/docs/information-mobile-performance.png)
+
+##### The Location Page
+
+Desktop Performance
+
+![Performance Desktop](assets/docs/location-desktop-performance.png)
+
+Mobile Performance
+
+![Performance Mobile](assets/docs/location-mobile-performance.png)
+
+* The performance in the Dev Tools, Lighthouse extension for the desktop Landing Page was better than for mobile.  This is an area that would need improvement.  While developing the website the suggested issues were targeted, however, issues then became prevailant in W3 Schools HTML Validator and so were taken out.  
+*  The Gallery Page was mostly made up of images and the performance reflected this in both mobile and desktop mode.
+*  The Information Page result was better for desktop mode over mobile.  This is an area where the developer needs to concentrate on future developments.
+*  The Location Page was poor for accessibility and this is an area to focus on for future developments.  Further investigation would be to integrate a map with an API key.
+*  The responsivemess across multiple device screens was tested with the "I am responsive" application.
+*  Chrome Dev Tools was used to check the css file.  The result was that a vertical image was unnecessary.  However, at the time of writing this the developer has failed to find the snippet of code.
+
+
+Other Testing
+
+* Friends and family tested the site out on their PC's, laptops, tablets and mobile phones and to report back any bugs.
+
+*  The website was tested on Internet Explorer, Microsoft Edge and Safari browsers.
+
+*  The website was tested on a variety of devices including iPhone 14, Samsung Galaxy Note 20.
+
+##### Validation
+
+The W3 Schools website was used to validate the HTML pages and Jigsaw for the css pages.
+
+[CSS Validation](http://jigsaw.w3.org/css-validator/images/vcss)
+
+[CSS JIGSAW](http://jigsaw.w3.org/css-validator/images/vcss-blue)
+
+
+
+##### Bugs
+
+Drop of CSS formatting in Address
+*  Problem
+     *  The address css code would not format the HTML page.  The formatting would reappear indisciminately.  
+*  The Cause
+     The Chrome Developer tools and Jigsaw Validitator for css were used to look for errors.
+* The Fix
+     *  The problem was a missed curly brace.
+
+Active Link not Staying Set
+*  Problem
+    *  The active page should have stayed coloured when a page was clicked
+*  The Cause
+     *  The css code was not implemented 
+*  The Fix
+     *  The css file was updated with the correct formatting for a class
+
+##  Tech
+
+Frameworks, Libraries & Programs Used
+
+HTML5
+CSS3
+Bootstrap 4
+Coolers
+Font Awesome
+JQuery
+Git
+GitHub
+Google Fonts
+NCH Pixillion
+Lighthouse
+Balsamiq
+Chrome Dev Tools
+W3 Schools HTML Validator
+W3 Schools Jigsaw CSS Markup Validator
+
+*  The website was written in HTML5 and CSS3.
+*  Bootstrap4 with JQuery was used to provide responsiveness and styling for smaller screens. 
+* Hover.css was used on the navigation bar and the Social Media icons in the footer. 
+*  Google fonts was used for Roboto font and Sans-serif was used as a backup if Roboto was not compiled.
+*  Font Awesome was implemented throughout the website.
+*  Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+*  GitHub has been used to store the project code after being pushed from Git.
+*  NCH Pixillion was used to change the format of the images into AVIF
+*  Coloors: The colors website was used to check colour compatbility..
+* Lighthouse was used in Chrome Dev Tools via Chrome Incognito mode to test responsiveness in "Desktop" and "Mobile".  
+*  Balsamiq was used to create the wireframes during the design process.
+ 
+##  Deployment
+
+I deployed the page on GitHub pages via the following procedure: -​
+
+*  In the project's repository, go to the settings tab.
+Navigate to the left-hand menu and select the Pages tab.
+*  Select the Main branch from under the Source section drop-down menu and click save.
+*  A message will be visible to indicate a successful deployment to Github pages and this will provide a live link.  The website can be found via the following URL
+
+
+## Honourable Mentions
+
+### Credits
+
+A massive thank you to my mentor, Richard Wells for all his help and guidance. I don't think I would have completed it without your knowledge and guidance.  A very big thank you to everyone in the Slack community for answering all my questions!.
+
+### Content:
+
+* The full-screen hero code came from the Code Institute project "Love Running", including the code for the hero-image animation and the cover text overlay.
+
+### Media
+
+Pictures were used from the websites below where they were free to use under a non-commercial licence.
+
+ Adobe Free Images
++ Adobe Free images - users' own Adobe Library via the link below
+  *  [Adobe](https://shared-assets.adobe.com/link/36c38f09-8417-4075-6832-6ce80ec91823)
+
+Unsplash
+*  Unsplash Free Images 
+   *  [Unsplash](https://unsplash.com)
+
+Freepiks
+*  Freepiks Free Images
+    *  [Freepiks](https://www.freepik.com/)
+
+
+#### Bootstrap4: 
+
+*  The Bootstrap Library used was used throughout the project to cut down on time, and to make the website more responsive for a "mobile first" initiative in building the website.
+
+#### Google Maps:  
+
+*  A link to a fictitious Gym has been created via Google maps which includes a fictitious address.
+
+#### HTML Validation:  
+
+*  The HTML files were validated through the W3 Schools HTML Validation process
+
+*  Content
+      * All content was written by the developer.  Where ideas from other software has been 
+        included acknowledgment has been documented in the files and in this project document.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
