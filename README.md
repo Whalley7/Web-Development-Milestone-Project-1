@@ -401,7 +401,7 @@ Freepiks
 
 A link to the live website can be found below: -
 
-![Live Site](https://whalley7.github.io/Web-Development-Milestone-Project-1/)
+ [Live Site](https://whalley7.github.io/Web-Development-Milestone-Project-1/)
 
 
 
