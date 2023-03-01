@@ -72,7 +72,28 @@ User stories
 
 * Wireframes were developed in Balsamiq.  The following link to open the file:-
 
-*  ![Wireframes](assets/docs/wireframe.pdf)
+Wireframes for Desktop, Tablet and Mobile
+
+
+*  Landing Page
+
+*  ![Wireframes](assets/docs/home-page.png)
+
+*  Gallery Page
+
+* ![Gallery Wireframe](assets/docs/gallery-page.png)
+
+* Information Page
+
+* ![Information Wireframe](assets/docs/information.png)
+
+*  Locatiion Page
+
+* ![Location Page](assets/docs/location.png)
+
+
+Gallery Page
+
 
 ### Colour Scheme:
 
@@ -281,9 +302,9 @@ Mobile Performance
 
 The W3 Schools website was used to validate the HTML pages and Jigsaw for the css pages.
 
-[CSS Validation](http://jigsaw.w3.org/css-validator/images/vcss)
+![CSS Validation](http://jigsaw.w3.org/css-validator/images/vcss)
 
-[CSS JIGSAW](http://jigsaw.w3.org/css-validator/images/vcss-blue)
+![CSS JIGSAW](http://jigsaw.w3.org/css-validator/images/vcss-blue)
 
 
 
