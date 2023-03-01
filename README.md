@@ -36,9 +36,6 @@ The project aim is to develop a website for a new campaign to attract clientele 
 
 ### Target audience
 
-![CI logo](https://ui.dev/amiresponsive?url=https://8000-whalley7-webdevelopment-hqu01v8ryzk.ws-eu88.gitpod.io/index.html)
-
-
 * As a user, I want to see the websites subject matter; namely what the gym has to offer.
 * As a user, I want to be able to navigate the pages and website to find what I require quickly and easily.
 * As a user, I want to learn more about what the business offers in a clear way including the times the gym is open; the classes and a clear pricing system.
