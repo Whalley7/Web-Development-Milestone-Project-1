@@ -81,7 +81,7 @@ Wireframes for Desktop, Tablet and Mobile
 
 *  Gallery Page
 
-* ![Gallery Wireframe](assets/docs/gallery-page.png)
+* ![Gallery Wireframe](assets/docs/gallery.png)
 
 * Information Page
 
