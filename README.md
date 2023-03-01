@@ -395,7 +395,8 @@ Freepiks
 *  The HTML files were validated through the W3 Schools HTML Validation process
 
 *  Content
-      * All content was written by the developer.  Where ideas from other software has been 
+      * All content was written by the developer.  
+        Where ideas from other software has been 
         included acknowledgment has been documented in the HTML files and in this project document.
 
 
