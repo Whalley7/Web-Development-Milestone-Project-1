@@ -1,7 +1,6 @@
-# Phoenix City Gym
+# Phoenix Gym
 
-Link to responsive screenshot
-
+![Landing Page](assets/docs/responsive-landing-page.png)
 
 ## Site Overview
 
@@ -18,7 +17,6 @@ The project aim is to develop a website for a new campaign to attract clientele 
      *  [Wireframes](#wireframes)
      *  [Colour Scheme](#colour-scheme)
      *  [Typography](#typography)
-
 3.  [Current Features Common to all pages](#current-features-common-to-all-pages)
       * [The Header Element:](#navigation-bar)
       * [The Rest of the Features](#the-landing-page)
@@ -28,7 +26,6 @@ The project aim is to develop a website for a new campaign to attract clientele 
 6.  [Deployment](#deployment)
 7.  [Tech](#tech)
 8.  [Credit](#credit)
-
       * [Honorable mentions](#honourable-mentions)
       *  [General reference](#general-reference)
       *  [Content](#content)
@@ -75,10 +72,9 @@ User stories
 
 * Wireframes were developed in Balsamiq.  The following link to open the file:-
 
-*  [Wireframes](assets/docs/Milestone One - wireframe.pdf)
+*  ![Wireframes](assets/docs/wireframe.pdf)
 
 ### Colour Scheme:
-
 
 *  The colour scheme chosen for the website was taken from the "Hero-Image" used in the Home Page which used bright colours, to attract the attention of the user.  This was combined with a white navigation bar and black headings on a white background to provide an uncluttered effect and does not clash with other black and white images used throughout the website.  This provided a clear contrast between the text, background and images.
 
@@ -93,6 +89,8 @@ All colour values have been converted to their Hex equivalent.
 * The label has a background value of background-color #924587 to provide opacity.  
 
 *  The Home (active) button has a colour value of #9fd1e6; which picks up colour form the Hero-Image and colour images and contrasts with the black and white images.
+
+*  The Hover button has a colour value of 
 
 
 ###  Typography 
@@ -133,16 +131,16 @@ The Navigation bar provides user access to all the pages and is consistent acros
 *	On smaller screens a hamburger menu, vertically aligned is provided to ensure mobile users have an optimal experience
 *  The navigation bar is fixed at the top of the page and so is accessible to the user as they scroll down the page.
 
-### Footer
 
-Address and Social Media Links
+#### Address
 
-![Footer](assets/docs/footer-image.png)
+![Address and Footer](assets/docs/footer-image.png)
 
-*  The address for the gym is featured on the first and last page of the footer.
+*  The address for the gym is featured on the first and last pages.
 *  The content includes a telephone number and email address so that the user is able to contact the gym for more information.
 *  On each page are social media links.
 
+### Footer
 
 
 *  Social network links provide access to Facebook, Twitter, YouTube, Instagram and Pinterest
@@ -174,7 +172,7 @@ Address and Social Media Links
 
 * Content cards were used to display the prices of different memberships.  The cards are responsive and resiseable so the information is not lost on different screens.
 
-Timetable
+#### Timetable
 
 
 ![Timetable](assets/docs/timetable-image.png)
@@ -263,7 +261,7 @@ Mobile Performance
 *  Chrome Dev Tools was used to check the css file.  The result was that a vertical image was unnecessary.  However, at the time of writing this the developer has failed to find the snippet of code.
 
 
-Other Testing
+####Other Testing
 
 * Friends and family tested the site out on their PC's, laptops, tablets and mobile phones and to report back any bugs.
 
@@ -271,7 +269,7 @@ Other Testing
 
 *  The website was tested on a variety of devices including iPhone 14, Samsung Galaxy Note 20.
 
-##### Validation
+#### Validation
 
 The W3 Schools website was used to validate the HTML pages and Jigsaw for the css pages.
 
@@ -382,7 +380,7 @@ Freepiks
 
 *  Content
       * All content was written by the developer.  Where ideas from other software has been 
-        included acknowledgment has been documented in the files and in this project document.
+        included acknowledgment has been documented in the HTML files and in this project document.
 
 
 

@@ -168,11 +168,7 @@ h3 {
   text-align: center;
 }
 
-
-
 /*-----------------Information Page Table*/
-
-
 
 /*---------------------Address Formatting*/
 .contact {
@@ -263,7 +259,7 @@ table {
 }
 
 .pilates {
-  background-color: silver;
+  background-color:#14a3e0;
 }
 
 .cardio {
