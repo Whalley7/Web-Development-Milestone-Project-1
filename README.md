@@ -118,7 +118,15 @@ The fonts used throughout the website includes: -
 
 ### Header Element
 
-![Navigation Bar](assets/docs/navigation-bar.png)
+### Navigation Bar
+
+####
+
+Navigation Bar for Wide Screens
+
+![Navigation Bar](assets/docs/wide-landing-navigation.png)
+
+Navigation Bar Collapsed for Small Devices
 
 ![Collapsed Navigation Bar](assets/docs/collapsed-navigation-bar.png)
 
@@ -226,7 +234,7 @@ Mobile Result
 
 Desktop Performance
 
-![Performance Desktop](assets/docs/gallery-image-desktop.png)
+![Performance Desktop](assets/docs/gallery-performance-desktop.png)
 
 Mobile Performance
 
