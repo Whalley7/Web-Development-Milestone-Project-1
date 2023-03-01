@@ -158,14 +158,6 @@ The Navigation bar provides user access to all the pages and is consistent acros
 *  The navigation bar is fixed at the top of the page and so is accessible to the user as they scroll down the page.
 
 
-#### Address
-
-![Address and Footer](assets/docs/footer-image.png)
-
-*  The address for the gym is featured on the first and last pages.
-*  The content includes a telephone number and email address so that the user is able to contact the gym for more information.
-*  On each page are social media links.
-
 ### Footer
 
 
@@ -192,14 +184,11 @@ The Navigation bar provides user access to all the pages and is consistent acros
 
 ### Information Page
 
-
-
 ![Price Cards](assets/docs/card-image.png)
 
 * Content cards were used to display the prices of different memberships.  The cards are responsive and resiseable so the information is not lost on different screens.
 
-#### Timetable
-
+### Timetable
 
 ![Timetable](assets/docs/timetable-image.png)
 
@@ -214,7 +203,13 @@ The Navigation bar provides user access to all the pages and is consistent acros
 
 *  A Google Map provides the user with an interactive map to pinpoint the exact location of the gym.
 
+### Address
 
+![Address and Footer](assets/docs/footer-image.png)
+
+*  The address for the gym is featured on the first and last pages.
+*  The content includes a telephone number and email address so that the user is able to contact the gym for more information.
+*  On each page are social media links.
 
 ## Future-Enhancements
 
@@ -238,7 +233,7 @@ At the time of designing this website I lacked the skills to provide certain fea
 
 The website was tested via the Dev Tools in Google Chrome including Lighthouse.  Below are screenshots of the performance, accessibility and best practice for each page.  
 
-##### The Landing Page
+#### The Landing Page
 
 Destop Result
 
@@ -248,7 +243,7 @@ Mobile Result
 
 ![Performance Mobile](assets/docs/mobile-performance-landing-page.png)
 
-##### The Gallery
+#### The Gallery
 
 Desktop Performance
 
@@ -259,7 +254,7 @@ Mobile Performance
 ![Gallery Mobile](assets/docs/gallery-mobile-performance.png)
 
 
-##### The Information Page
+#### The Information Page
 
 Desktop Performance
 
@@ -269,7 +264,7 @@ Mobile Performance
 
 ![Performance Mobile](assets/docs/information-mobile-performance.png)
 
-##### The Location Page
+#### The Location Page
 
 Desktop Performance
 
@@ -287,7 +282,7 @@ Mobile Performance
 *  Chrome Dev Tools was used to check the css file.  The result was that a vertical image was unnecessary.  However, at the time of writing this the developer has failed to find the snippet of code.
 
 
-####Other Testing
+#### Other Testing
 
 * Friends and family tested the site out on their PC's, laptops, tablets and mobile phones and to report back any bugs.
 
@@ -304,8 +299,7 @@ The W3 Schools website was used to validate the HTML pages and Jigsaw for the cs
 ![CSS JIGSAW](http://jigsaw.w3.org/css-validator/images/vcss-blue)
 
 
-
-##### Bugs
+#### Bugs
 
 Drop of CSS formatting in Address
 *  Problem
@@ -392,15 +386,11 @@ Freepiks
     *  [Freepiks](https://www.freepik.com/)
 
 
-#### Bootstrap4: 
-
-*  The Bootstrap Library used was used throughout the project to cut down on time, and to make the website more responsive for a "mobile first" initiative in building the website.
-
-#### Google Maps:  
+### Google Maps:  
 
 *  A link to a fictitious Gym has been created via Google maps which includes a fictitious address.
 
-#### HTML Validation:  
+### HTML Validation:  
 
 *  The HTML files were validated through the W3 Schools HTML Validation process
 
