@@ -399,6 +399,9 @@ Freepiks
         Where ideas from other software has been 
         included acknowledgment has been documented in the HTML files and in this project document.
 
+A link to the live website can be found below: -
+
+![Live Site](https://whalley7.github.io/Web-Development-Milestone-Project-1/)
 
 
 
