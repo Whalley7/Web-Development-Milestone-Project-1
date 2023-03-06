@@ -71,25 +71,13 @@ User stories
 
 Wireframes for Desktop, Tablet and Mobile
 
+*   [Landing Page wireframe](assets/docs/home-page.png)
 
-*  Landing Page
+* [Gallery Wireframe](assets/docs/gallery.png)
 
-*  ![Wireframes](assets/docs/home-page.png)
+* [Information Wireframe](assets/docs/information.png)
 
-*  Gallery Page
-
-* ![Gallery Wireframe](assets/docs/gallery.png)
-
-* Information Page
-
-* ![Information Wireframe](assets/docs/information.png)
-
-*  Locatiion Page
-
-* ![Location Page](assets/docs/location.png)
-
-
-Gallery Page
+* [Location Page](assets/docs/location.png)
 
 
 ### Colour Scheme:
@@ -108,7 +96,7 @@ All colour values have been converted to their Hex equivalent.
 
 *  The Home (active) button has a colour value of #9fd1e6; which picks up colour form the Hero-Image and colour images and contrasts with the black and white images.
 
-*  The Hover button has a colour value of 
+*  The Hover button has a colour value of #f16bd8 which is the same as the label.
 
 
 ###  Typography 
@@ -330,7 +318,6 @@ JQuery
 Git
 GitHub
 Google Fonts
-NCH Pixillion
 Lighthouse
 Balsamiq
 Chrome Dev Tools
@@ -344,8 +331,7 @@ W3 Schools Jigsaw CSS Markup Validator
 *  Font Awesome was implemented throughout the website.
 *  Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 *  GitHub has been used to store the project code after being pushed from Git.
-*  NCH Pixillion was used to change the format of the images into AVIF
-*  Coloors: The colors website was used to check colour compatbility..
+*  Coloors: The colors website was used to check colour compatbility.
 * Lighthouse was used in Chrome Dev Tools via Chrome Incognito mode to test responsiveness in "Desktop" and "Mobile".  
 *  Balsamiq was used to create the wireframes during the design process.
  
@@ -353,10 +339,13 @@ W3 Schools Jigsaw CSS Markup Validator
 
 I deployed the page on GitHub pages via the following procedure: -​
 
-*  In the project's repository, go to the settings tab.
-Navigate to the left-hand menu and select the Pages tab.
-*  Select the Main branch from under the Source section drop-down menu and click save.
-*  A message will be visible to indicate a successful deployment to Github pages and this will provide a live link.  The website can be found via the following URL
+*  ## **Deployment**
+I deployed the page on GitHub pages via the following procedure: -
+
+1. From the project's [repository](pageurl), go to the **Settings** tab.
+2. From the left-hand menu, select the **Pages** tab.
+3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
+4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 
 
 ## Honourable Mentions
@@ -368,6 +357,8 @@ A massive thank you to my mentor, Richard Wells for all his help and guidance. I
 ### Content:
 
 * The full-screen hero code came from the Code Institute project "Love Running", including the code for the hero-image animation and the cover text overlay.
+* The inline style for the footer came from Code Institute CV tutorial.
+* The embedded Google Map came from Google Map support.
 
 ### Media
 
@@ -399,7 +390,7 @@ Freepiks
         Where ideas from other software has been 
         included acknowledgment has been documented in the HTML files and in this project document.
 
-A link to the live website can be found below: -
+You can find the live link to the website below: -
 
  [Live Site](https://whalley7.github.io/Web-Development-Milestone-Project-1/)
 
