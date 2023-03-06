@@ -159,7 +159,7 @@ The Navigation bar provides user access to all the pages and is consistent acros
 
 *  The Landing Page provides an animation of people of gym bikes. The animation provides movement suggesting energy.  The image is bright and depicts people already using a gymnasium.
 
-![Transform Your Body](assets/docs/circular-landing-image.png)
+![Transform Your Body](assets/docs/transform-screenshot.png)
 
 * The transformation  provides four circular images.  The use of cropped circular images allows the designer to crop out uneccessary pixels and to refocus the user's eye on the composition.  The circular images responsively scale down.
 
