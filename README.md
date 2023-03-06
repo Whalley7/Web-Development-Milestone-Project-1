@@ -90,7 +90,7 @@ All colour values have been converted to their Hex equivalent.
 
 *  The background colour is white #fff which provides a contrast to the black header and bright colours used in images.
 
-*  The black header colour #000000. contrasts with the bright images and picks blends with the black and white images.
+*  The black header colour #000000. contrasts with the bright images and blends with the black and white images.
 
 * The label has a background value of background-color #924587 to provide opacity.  
 
@@ -390,7 +390,7 @@ Freepiks
         Where ideas from other software has been 
         included acknowledgment has been documented in the HTML files and in this project document.
 
-You can find the live link to the website below: -
+You can find the live link to the website by following the URL below: -
 
  [Live Site](https://whalley7.github.io/Web-Development-Milestone-Project-1/)
 
