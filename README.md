@@ -165,14 +165,14 @@ The Navigation bar provides user access to all the pages and is consistent acros
 
 ### Gallery Page
 
-![Gallery](assets/docs/gallery-image.png)
+![Gallery](assets/docs/gallery-screenshot.png)
 
 * The gallery allows users to see several images clearly at once to showcase the benefits of the gym.
 * The gallery images are responsive and are accessible on screens of different sizes so no information is lost for those using smaller screens.
 
 ### Information Page
 
-![Price Cards](assets/docs/card-image.png)
+![Price Cards](assets/docs/information-screenshot.png)
 
 * Content cards were used to display the prices of different memberships.  The cards are responsive and resiseable so the information is not lost on different screens.
 
@@ -342,7 +342,7 @@ I deployed the page on GitHub pages via the following procedure: -​
 *  ## **Deployment**
 I deployed the page on GitHub pages via the following procedure: -
 
-1. From the project's [repository](pageurl), go to the **Settings** tab.
+1. From the project's [repository](https://github.com/Whalley7/Web-Development-Milestone-Project-1), go to the **Settings** tab.
 2. From the left-hand menu, select the **Pages** tab.
 3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
 4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
