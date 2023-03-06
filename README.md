@@ -1,6 +1,6 @@
 # Phoenix Gym
 
-![Landing Page](assets/docs/responsive-landing-page.png)
+![Landing Page](assets/docs/am-I-responsive.png)
 
 ## Site Overview
 
@@ -71,7 +71,7 @@ User stories
 
 Wireframes for Desktop, Tablet and Mobile
 
-*   [Landing Page wireframe](assets/docs/home-page.png)
+* [Landing Page wireframe](assets/docs/home-page.png)
 
 * [Gallery Wireframe](assets/docs/gallery.png)
 
